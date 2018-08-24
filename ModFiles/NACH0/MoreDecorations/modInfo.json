@@ -1,0 +1,66 @@
+[{
+	"name": "NACH0.MoreDecorations",
+	"version": "1.1.0",
+	"namepretty": "More Decorations",
+	"dllpath": "MoreDecorations.dll",
+	"enabled": true,
+	"marksgamemodded": true,
+	"compatibleversions": [
+		"0.6.3"
+	],
+	"jsonFiles": [
+	{
+			"fileType": "addOrOverrideTextureMappingEntries",
+			"relativePath": "gamedata/textures/materials/textures.json"
+		},
+		{
+			"fileType": "addNewTypes",
+			"relativePath": "gamedata/types.json"
+		},
+		{
+				"fileType" : "addOrReplaceNPCRecipes",
+				"index" : -1000000,
+				"limitsUIMapping" : [
+					"Nach0SlabMaker"
+				],
+				"npcType" : "Nach0SlabMakerJob",
+				"relativePath" : "gamedata/recipes/Nach0SlabMakerJob.json"
+			},
+		{
+				"fileType" : "addOrReplaceNPCRecipes",
+				"index" : -1000000,
+				"limitsUIMapping" : [
+					"Nach0StairMaker"
+				],
+				"npcType" : "Nach0StairMakerJob",
+				"relativePath" : "gamedata/recipes/Nach0StairMakerJob.json"
+			}
+		],
+	"patchnotes": [
+	{
+		"version": "1.0.1",
+		"notes": [
+			"Thanks to Lordis3D for help with the meshes making them look nicer",
+			"fixed an issue with using morenutrition and moredecorations",
+			"*If you find any issues or have suggestions join the discord",
+					"*discord.gg/tqFhxhm"
+					]
+					},
+	{
+		"version": "0.1.0",
+		"notes": [
+			"all slabs exept for the coloured blocks are done",
+			"*If you find any issues or have suggestions join the discord",
+					"*discord.gg/tqFhxhm"
+				]
+			},
+	{
+				"version": "0.0.1",
+				"notes": [
+					"Initial Release",
+					"*If you find any issues or have suggestions join the discord",
+					"*discord.gg/tqFhxhm"
+				]
+			}
+	]
+}]

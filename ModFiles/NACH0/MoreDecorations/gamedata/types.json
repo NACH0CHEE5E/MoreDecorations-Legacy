@@ -1,0 +1,5931 @@
+{
+	"Nach0SlabVanillaLogTaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaLogTaiga.png",
+		"rotatablex-": "Nach0SlabVanillaLogTaigaUp",
+		"rotatablex+": "Nach0SlabVanillaLogTaigaUp",
+		"rotatablez-": "Nach0SlabVanillaLogTaigaDown",
+		"rotatablez+": "Nach0SlabVanillaLogTaigaDown"
+	},
+	"Nach0SlabVanillaLogTaigaUp": {
+		"parentType": "Nach0SlabVanillaLogTaiga",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0SlabVanillaLogTaigaDown": {
+		"parentType": "Nach0SlabVanillaLogTaiga",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0SlabVanillaLogTemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaLogTemperate.png",
+		"rotatablex-": "Nach0SlabVanillaLogTemperateUp",
+		"rotatablex+": "Nach0SlabVanillaLogTemperateUp",
+		"rotatablez-": "Nach0SlabVanillaLogTemperateDown",
+		"rotatablez+": "Nach0SlabVanillaLogTemperateDown"
+	},
+	"Nach0SlabVanillaLogTemperateUp": {
+		"parentType": "Nach0SlabVanillaLogTemperate",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0SlabVanillaLogTemperateDown": {
+		"parentType": "Nach0SlabVanillaLogTemperate",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0SlabVanillaPlanks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaPlanks.png",
+		"rotatablex-": "Nach0SlabVanillaPlanksUp",
+		"rotatablex+": "Nach0SlabVanillaPlanksUp",
+		"rotatablez-": "Nach0SlabVanillaPlanksDown",
+		"rotatablez+": "Nach0SlabVanillaPlanksDown"
+	},
+	"Nach0SlabVanillaPlanksUp": {
+		"parentType": "Nach0SlabVanillaPlanks",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "planks"
+	},
+	"Nach0SlabVanillaPlanksDown": {
+		"parentType": "Nach0SlabVanillaPlanks",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "planks"
+	},
+	"Nach0SlabVanillaClay": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaClay.png",
+		"rotatablex-": "Nach0SlabVanillaClayUp",
+		"rotatablex+": "Nach0SlabVanillaClayUp",
+		"rotatablez-": "Nach0SlabVanillaClayDown",
+		"rotatablez+": "Nach0SlabVanillaClayDown"
+	},
+	"Nach0SlabVanillaClayUp": {
+		"parentType": "Nach0SlabVanillaClay",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "clay"
+	},
+	"Nach0SlabVanillaClayDown": {
+		"parentType": "Nach0SlabVanillaClay",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "clay"
+	},
+	"Nach0SlabVanillaAdobe": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaAdobe.png",
+		"rotatablex-": "Nach0SlabVanillaAdobeUp",
+		"rotatablex+": "Nach0SlabVanillaAdobeUp",
+		"rotatablez-": "Nach0SlabVanillaAdobeDown",
+		"rotatablez+": "Nach0SlabVanillaAdobeDown"
+	},
+	"Nach0SlabVanillaAdobeUp": {
+		"parentType": "Nach0SlabVanillaAdobe",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0SlabVanillaAdobeDown": {
+		"parentType": "Nach0SlabVanillaAdobe",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0SlabVanillaCherryBlossom": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaCherryBlossom.png",
+		"rotatablex-": "Nach0SlabVanillaCherryBlossomUp",
+		"rotatablex+": "Nach0SlabVanillaCherryBlossomUp",
+		"rotatablez-": "Nach0SlabVanillaCherryBlossomDown",
+		"rotatablez+": "Nach0SlabVanillaCherryBlossomDown"
+	},
+	"Nach0SlabVanillaCherryBlossomUp": {
+		"parentType": "Nach0SlabVanillaCherryBlossom",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0SlabVanillaCherryBlossomDown": {
+		"parentType": "Nach0SlabVanillaCherryBlossom",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0SlabVanillaDarkStone": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaDarkStone.png",
+		"rotatablex-": "Nach0SlabVanillaDarkStoneUp",
+		"rotatablex+": "Nach0SlabVanillaDarkStoneUp",
+		"rotatablez-": "Nach0SlabVanillaDarkStoneDown",
+		"rotatablez+": "Nach0SlabVanillaDarkStoneDown"
+	},
+	"Nach0SlabVanillaDarkStoneUp": {
+		"parentType": "Nach0SlabVanillaDarkStone",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "infinitestone"
+	},
+	"Nach0SlabVanillaDarkStoneDown": {
+		"parentType": "Nach0SlabVanillaDarkStone",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "infinitestone"
+	},
+	"Nach0SlabVanillaDirt": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaDirt.png",
+		"rotatablex-": "Nach0SlabVanillaDirtUp",
+		"rotatablex+": "Nach0SlabVanillaDirtUp",
+		"rotatablez-": "Nach0SlabVanillaDirtDown",
+		"rotatablez+": "Nach0SlabVanillaDirtDown"
+	},
+	"Nach0SlabVanillaDirtUp": {
+		"parentType": "Nach0SlabVanillaDirt",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0SlabVanillaDirtDown": {
+		"parentType": "Nach0SlabVanillaDirt",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0SlabVanillaIronBlock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaIronBlock.png",
+		"rotatablex-": "Nach0SlabVanillaIronBlockUp",
+		"rotatablex+": "Nach0SlabVanillaIronBlockUp",
+		"rotatablez-": "Nach0SlabVanillaIronBlockDown",
+		"rotatablez+": "Nach0SlabVanillaIronBlockDown"
+	},
+	"Nach0SlabVanillaIronBlockUp": {
+		"parentType": "Nach0SlabVanillaIronBlock",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0SlabVanillaIronBlockDown": {
+		"parentType": "Nach0SlabVanillaIronBlock",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0SlabVanillaPlasterBlock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaPlasterBlock.png",
+		"rotatablex-": "Nach0SlabVanillaPlasterBlockUp",
+		"rotatablex+": "Nach0SlabVanillaPlasterBlockUp",
+		"rotatablez-": "Nach0SlabVanillaPlasterBlockDown",
+		"rotatablez+": "Nach0SlabVanillaPlasterBlockDown"
+	},
+	"Nach0SlabVanillaPlasterBlockUp": {
+		"parentType": "Nach0SlabVanillaPlasterBlock",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0SlabVanillaPlasterBlockDown": {
+		"parentType": "Nach0SlabVanillaPlasterBlock",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0SlabVanillaSand": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaSand.png",
+		"rotatablex-": "Nach0SlabVanillaSandUp",
+		"rotatablex+": "Nach0SlabVanillaSandUp",
+		"rotatablez-": "Nach0SlabVanillaSandDown",
+		"rotatablez+": "Nach0SlabVanillaSandDown"
+	},
+	"Nach0SlabVanillaSandUp": {
+		"parentType": "Nach0SlabVanillaSand",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "sand"
+	},
+	"Nach0SlabVanillaSandDown": {
+		"parentType": "Nach0SlabVanillaSand",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "sand"
+	},
+	"Nach0SlabVanillaSnow": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaSnow.png",
+		"rotatablex-": "Nach0SlabVanillaSnowUp",
+		"rotatablex+": "Nach0SlabVanillaSnowUp",
+		"rotatablez-": "Nach0SlabVanillaSnowDown",
+		"rotatablez+": "Nach0SlabVanillaSnowDown"
+	},
+	"Nach0SlabVanillaSnowUp": {
+		"parentType": "Nach0SlabVanillaSnow",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "snow"
+	},
+	"Nach0SlabVanillaSnowDown": {
+		"parentType": "Nach0SlabVanillaSnow",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "snow"
+	},
+	"Nach0SlabVanillaStoneBlock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaStoneBlock.png",
+		"rotatablex-": "Nach0SlabVanillaStoneBlockUp",
+		"rotatablex+": "Nach0SlabVanillaStoneBlockUp",
+		"rotatablez-": "Nach0SlabVanillaStoneBlockDown",
+		"rotatablez+": "Nach0SlabVanillaStoneBlockDown"
+	},
+	"Nach0SlabVanillaStoneBlockUp": {
+		"parentType": "Nach0SlabVanillaStoneBlock",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0SlabVanillaStoneBlockDown": {
+		"parentType": "Nach0SlabVanillaStoneBlock",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0SlabVanillaStraw": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaStraw.png",
+		"rotatablex-": "Nach0SlabVanillaStrawUp",
+		"rotatablex+": "Nach0SlabVanillaStrawUp",
+		"rotatablez-": "Nach0SlabVanillaStrawDown",
+		"rotatablez+": "Nach0SlabVanillaStrawDown"
+	},
+	"Nach0SlabVanillaStrawUp": {
+		"parentType": "Nach0SlabVanillaStraw",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "straw"
+	},
+	"Nach0SlabVanillaStrawDown": {
+		"parentType": "Nach0SlabVanillaStraw",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "straw"
+	},
+	"Nach0SlabVanillaStoneBricks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaStoneBricks.png",
+		"rotatablex-": "Nach0SlabVanillaStoneBricksUp",
+		"rotatablex+": "Nach0SlabVanillaStoneBricksUp",
+		"rotatablez-": "Nach0SlabVanillaStoneBricksDown",
+		"rotatablez+": "Nach0SlabVanillaStoneBricksDown"
+	},
+	"Nach0SlabVanillaStoneBricksUp": {
+		"parentType": "Nach0SlabVanillaStoneBricks",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0SlabVanillaStoneBricksDown": {
+		"parentType": "Nach0SlabVanillaStoneBricks",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0SlabVanillaBricks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaBricks.png",
+		"rotatablex-": "Nach0SlabVanillaBricksUp",
+		"rotatablex+": "Nach0SlabVanillaBricksUp",
+		"rotatablez-": "Nach0SlabVanillaBricksDown",
+		"rotatablez+": "Nach0SlabVanillaBricksDown"
+	},
+	"Nach0SlabVanillaBricksUp": {
+		"parentType": "Nach0SlabVanillaBricks",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0SlabVanillaBricksDown": {
+		"parentType": "Nach0SlabVanillaBricks",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0SlabVanillaGrassRainforest": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaGrassRainforest.png",
+		"rotatablex-": "Nach0SlabVanillaGrassRainforestUp",
+		"rotatablex+": "Nach0SlabVanillaGrassRainforestUp",
+		"rotatablez-": "Nach0SlabVanillaGrassRainforestDown",
+		"rotatablez+": "Nach0SlabVanillaGrassRainforestDown"
+	},
+	"Nach0SlabVanillaGrassRainforestUp": {
+		"parentType": "Nach0SlabVanillaGrassRainforest",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0SlabVanillaGrassRainforestDown": {
+		"parentType": "Nach0SlabVanillaGrassRainforest",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0SlabVanillaGrassSavana": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaGrassSavana.png",
+		"rotatablex-": "Nach0SlabVanillaGrassSavanaUp",
+		"rotatablex+": "Nach0SlabVanillaGrassSavanaUp",
+		"rotatablez-": "Nach0SlabVanillaGrassSavanaDown",
+		"rotatablez+": "Nach0SlabVanillaGrassSavanaDown"
+	},
+	"Nach0SlabVanillaGrassSavanaUp": {
+		"parentType": "Nach0SlabVanillaGrassSavana",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0SlabVanillaGrassSavanaDown": {
+		"parentType": "Nach0SlabVanillaGrassSavana",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0SlabVanillaGrassTaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaGrassTaiga.png",
+		"rotatablex-": "Nach0SlabVanillaGrassTaigaUp",
+		"rotatablex+": "Nach0SlabVanillaGrassTaigaUp",
+		"rotatablez-": "Nach0SlabVanillaGrassTaigaDown",
+		"rotatablez+": "Nach0SlabVanillaGrassTaigaDown"
+	},
+	"Nach0SlabVanillaGrassTaigaUp": {
+		"parentType": "Nach0SlabVanillaGrassTaiga",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0SlabVanillaGrassTaigaDown": {
+		"parentType": "Nach0SlabVanillaGrassTaiga",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0SlabVanillaGrassTemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaGrassTemperate.png",
+		"rotatablex-": "Nach0SlabVanillaGrassTemperateUp",
+		"rotatablex+": "Nach0SlabVanillaGrassTemperateUp",
+		"rotatablez-": "Nach0SlabVanillaGrassTemperateDown",
+		"rotatablez+": "Nach0SlabVanillaGrassTemperateDown"
+	},
+	"Nach0SlabVanillaGrassTemperateUp": {
+		"parentType": "Nach0SlabVanillaGrassTemperate",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0SlabVanillaGrassTemperateDown": {
+		"parentType": "Nach0SlabVanillaGrassTemperate",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0SlabVanillaGrassTundra": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaGrassTundra.png",
+		"rotatablex-": "Nach0SlabVanillaGrassTundraUp",
+		"rotatablex+": "Nach0SlabVanillaGrassTundraUp",
+		"rotatablez-": "Nach0SlabVanillaGrassTundraDown",
+		"rotatablez+": "Nach0SlabVanillaGrassTundraDown"
+	},
+	"Nach0SlabVanillaGrassTundraUp": {
+		"parentType": "Nach0SlabVanillaGrassTundra",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0SlabVanillaGrassTundraDown": {
+		"parentType": "Nach0SlabVanillaGrassTundra",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0SlabVanillaLeavesTaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaLeavesTaiga.png",
+		"rotatablex-": "Nach0SlabVanillaLeavesTaigaUp",
+		"rotatablex+": "Nach0SlabVanillaLeavesTaigaUp",
+		"rotatablez-": "Nach0SlabVanillaLeavesTaigaDown",
+		"rotatablez+": "Nach0SlabVanillaLeavesTaigaDown"
+	},
+	"Nach0SlabVanillaLeavesTaigaUp": {
+		"parentType": "Nach0SlabVanillaLeavesTaiga",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0SlabVanillaLeavesTaigaDown": {
+		"parentType": "Nach0SlabVanillaLeavesTaiga",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0SlabVanillaLeavesTemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaLeavesTemperate.png",
+		"rotatablex-": "Nach0SlabVanillaLeavesTemperateUp",
+		"rotatablex+": "Nach0SlabVanillaLeavesTemperateUp",
+		"rotatablez-": "Nach0SlabVanillaLeavesTemperateDown",
+		"rotatablez+": "Nach0SlabVanillaLeavesTemperateDown"
+	},
+	"Nach0SlabVanillaLeavesTemperateUp": {
+		"parentType": "Nach0SlabVanillaLeavesTemperate",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0SlabVanillaLeavesTemperateDown": {
+		"parentType": "Nach0SlabVanillaLeavesTemperate",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0SlabVanillaCoatedBlackPlanks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaCoatedBlackPlanks.png",
+		"rotatablex-": "Nach0SlabVanillaCoatedBlackPlanksUp",
+		"rotatablex+": "Nach0SlabVanillaCoatedBlackPlanksUp",
+		"rotatablez-": "Nach0SlabVanillaCoatedBlackPlanksDown",
+		"rotatablez+": "Nach0SlabVanillaCoatedBlackPlanksDown"
+	},
+	"Nach0SlabVanillaCoatedBlackPlanksUp": {
+		"parentType": "Nach0SlabVanillaCoatedBlackPlanks",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0SlabVanillaCoatedBlackPlanksDown": {
+		"parentType": "Nach0SlabVanillaCoatedBlackPlanks",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0SlabVanillaCoatedPlanks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaCoatedPlanks.png",
+		"rotatablex-": "Nach0SlabVanillaCoatedPlanksUp",
+		"rotatablex+": "Nach0SlabVanillaCoatedPlanksUp",
+		"rotatablez-": "Nach0SlabVanillaCoatedPlanksDown",
+		"rotatablez+": "Nach0SlabVanillaCoatedPlanksDown"
+	},
+	"Nach0SlabVanillaCoatedPlanksUp": {
+		"parentType": "Nach0SlabVanillaCoatedPlanks",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0SlabVanillaCoatedPlanksDown": {
+		"parentType": "Nach0SlabVanillaCoatedPlanks",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0SlabVanillaCoatedRedPlanks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"slabs",
+			"vanilla",
+			"decorative"
+		],
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"icon": "./textures/icons/Nach0SlabVanillaCoatedRedPlanks.png",
+		"rotatablex-": "Nach0SlabVanillaCoatedRedPlanksUp",
+		"rotatablex+": "Nach0SlabVanillaCoatedRedPlanksUp",
+		"rotatablez-": "Nach0SlabVanillaCoatedRedPlanksDown",
+		"rotatablez+": "Nach0SlabVanillaCoatedRedPlanksDown"
+	},
+	"Nach0SlabVanillaCoatedRedPlanksUp": {
+		"parentType": "Nach0SlabVanillaCoatedRedPlanks",
+		"mesh": "./meshes/slabup.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0.5, 0.5],
+				"min": [-0.5, 0, -0.5]
+			}]
+		},
+		"sideall": "redplanks"
+	},
+	"Nach0SlabVanillaCoatedRedPlanksDown": {
+		"parentType": "Nach0SlabVanillaCoatedRedPlanks",
+		"mesh": "./meshes/slabdown.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "redplanks"
+	},
+	"Nach0VanillaBricksStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaBricksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaBricksStairsX-",
+		"rotatablex+": "Nach0VanillaBricksStairsX+",
+		"rotatablez-": "Nach0VanillaBricksStairsZ-",
+		"rotatablez+": "Nach0VanillaBricksStairsZ+"
+	},
+	"Nach0VanillaBricksStairsX-": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0VanillaBricksStairsX+": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0VanillaBricksStairsZ-": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0VanillaBricksStairsZ+": {
+		"parentType": "Nach0VanillaBricksStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0VanillaPlanksStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaPlanksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaPlanksStairsX-",
+		"rotatablex+": "Nach0VanillaPlanksStairsX+",
+		"rotatablez-": "Nach0VanillaPlanksStairsZ-",
+		"rotatablez+": "Nach0VanillaPlanksStairsZ+"
+	},
+	"Nach0VanillaPlanksStairsX-": {
+		"parentType": "Nach0VanillaPlanksStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "planks"
+	},
+	"Nach0VanillaPlanksStairsX+": {
+		"parentType": "Nach0VanillaPlanksStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "planks"
+	},
+	"Nach0VanillaPlanksStairsZ-": {
+		"parentType": "Nach0VanillaPlanksStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "planks"
+	},
+	"Nach0VanillaPlanksStairsZ+": {
+		"parentType": "Nach0VanillaPlanksStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "planks"
+	},
+	"Nach0VanillaCoatedBlackPlanksStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaCoatedBlackPlanksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaCoatedBlackPlanksStairsX-",
+		"rotatablex+": "Nach0VanillaCoatedBlackPlanksStairsX+",
+		"rotatablez-": "Nach0VanillaCoatedBlackPlanksStairsZ-",
+		"rotatablez+": "Nach0VanillaCoatedBlackPlanksStairsZ+"
+	},
+	"Nach0VanillaCoatedBlackPlanksStairsX-": {
+		"parentType": "Nach0VanillaCoatedBlackPlanksStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0VanillaCoatedBlackPlanksStairsX+": {
+		"parentType": "Nach0VanillaCoatedBlackPlanksStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0VanillaCoatedBlackPlanksStairsZ-": {
+		"parentType": "Nach0VanillaCoatedBlackPlanksStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0VanillaCoatedBlackPlanksStairsZ+": {
+		"parentType": "Nach0VanillaCoatedBlackPlanksStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0VanillaCoatedPlanksStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaCoatedPlanksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaCoatedPlanksStairsX-",
+		"rotatablex+": "Nach0VanillaCoatedPlanksStairsX+",
+		"rotatablez-": "Nach0VanillaCoatedPlanksStairsZ-",
+		"rotatablez+": "Nach0VanillaCoatedPlanksStairsZ+"
+	},
+	"Nach0VanillaCoatedPlanksStairsX-": {
+		"parentType": "Nach0VanillaCoatedPlanksStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0VanillaCoatedPlanksStairsX+": {
+		"parentType": "Nach0VanillaCoatedPlanksStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0VanillaCoatedPlanksStairsZ-": {
+		"parentType": "Nach0VanillaCoatedPlanksStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0VanillaCoatedPlanksStairsZ+": {
+		"parentType": "Nach0VanillaCoatedPlanksStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0VanillaRedPlanksStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaRedPlanksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaRedPlanksStairsX-",
+		"rotatablex+": "Nach0VanillaRedPlanksStairsX+",
+		"rotatablez-": "Nach0VanillaRedPlanksStairsZ-",
+		"rotatablez+": "Nach0VanillaRedPlanksStairsZ+"
+	},
+	"Nach0VanillaRedPlanksStairsX-": {
+		"parentType": "Nach0VanillaRedPlanksStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "redplanks"
+	},
+	"Nach0VanillaRedPlanksStairsX+": {
+		"parentType": "Nach0VanillaRedPlanksStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "redplanks"
+	},
+	"Nach0VanillaRedPlanksStairsZ-": {
+		"parentType": "Nach0VanillaRedPlanksStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "redplanks"
+	},
+	"Nach0VanillaRedPlanksStairsZ+": {
+		"parentType": "Nach0VanillaRedPlanksStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "redplanks"
+	},
+	"Nach0VanillaStoneBricksStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaStoneBricksStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksStairsZ+"
+	},
+	"Nach0VanillaStoneBricksStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0VanillaStoneBricksBlackStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaStoneBricksBlackStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksBlackStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksBlackStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksBlackStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksBlackStairsZ+"
+	},
+	"Nach0VanillaStoneBricksBlackStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBlackStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBlackStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBlackStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksBlackStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBrownStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaStoneBricksBrownStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksBrownStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksBrownStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksBrownStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksBrownStairsZ+"
+	},
+	"Nach0VanillaStoneBricksBrownStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"customData": {
+			"colors": "#7a6b47"
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBrownStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"customData": {
+			"colors": "#7a6b47"
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBrownStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#7a6b47",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksBrownStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksBrownStairs",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"customData": {
+			"color": "#7a6b47"
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairs": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0VanillaStoneBricksWhiteStairs.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0VanillaStoneBricksWhiteStairsX-",
+		"rotatablex+": "Nach0VanillaStoneBricksWhiteStairsX+",
+		"rotatablez-": "Nach0VanillaStoneBricksWhiteStairsZ-",
+		"rotatablez+": "Nach0VanillaStoneBricksWhiteStairsZ+"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsX-": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#b2b2b2",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsX+": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#b2b2b2",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsZ-": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"color": "#b2b2b2",
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0VanillaStoneBricksWhiteStairsZ+": {
+		"parentType": "Nach0VanillaStoneBricksWhiteStairs",
+		"color": "#b2b2b2",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "stonebricksgeneric"
+	},
+	"Nach0StairsVanillaLogTaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaLogTaiga.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaLogTaigaX-",
+		"rotatablex+": "Nach0StairsVanillaLogTaigaX+",
+		"rotatablez-": "Nach0StairsVanillaLogTaigaZ-",
+		"rotatablez+": "Nach0StairsVanillaLogTaigaZ+"
+	},
+	"Nach0StairsVanillaLogTaigaX-": {
+		"parentType": "Nach0StairsVanillaLogTaiga",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0StairsVanillaLogTaigaX+": {
+		"parentType": "Nach0StairsVanillaLogTaiga",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0StairsVanillaLogTaigaZ-": {
+		"parentType": "Nach0StairsVanillaLogTaiga",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0StairsVanillaLogTaigaZ+": {
+		"parentType": "Nach0StairsVanillaLogTaiga",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0StairsVanillaLogTemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaLogTemperate.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaLogTemperateX-",
+		"rotatablex+": "Nach0StairsVanillaLogTemperateX+",
+		"rotatablez-": "Nach0StairsVanillaLogTemperateZ-",
+		"rotatablez+": "Nach0StairsVanillaLogTemperateZ+"
+	},
+	"Nach0StairsVanillaLogTemperateX-": {
+		"parentType": "Nach0StairsVanillaLogTemperate",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0StairsVanillaLogTemperateX+": {
+		"parentType": "Nach0StairsVanillaLogTemperate",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0StairsVanillaLogTemperateZ-": {
+		"parentType": "Nach0StairsVanillaLogTemperate",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0StairsVanillaLogTemperateZ+": {
+		"parentType": "Nach0StairsVanillaLogTemperate",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0StairsVanillaAdobe": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaAdobe.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaAdobeX-",
+		"rotatablex+": "Nach0StairsVanillaAdobeX+",
+		"rotatablez-": "Nach0StairsVanillaAdobeZ-",
+		"rotatablez+": "Nach0StairsVanillaAdobeZ+"
+	},
+	"Nach0StairsVanillaAdobeX-": {
+		"parentType": "Nach0StairsVanillaAdobe",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0StairsVanillaAdobeX+": {
+		"parentType": "Nach0StairsVanillaAdobe",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0StairsVanillaAdobeZ-": {
+		"parentType": "Nach0StairsVanillaAdobe",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0StairsVanillaAdobeZ+": {
+		"parentType": "Nach0StairsVanillaAdobe",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0StairsVanillaCherryBlossom": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaCherryBlossom.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaCherryBlossomX-",
+		"rotatablex+": "Nach0StairsVanillaCherryBlossomX+",
+		"rotatablez-": "Nach0StairsVanillaCherryBlossomZ-",
+		"rotatablez+": "Nach0StairsVanillaCherryBlossomZ+"
+	},
+	"Nach0StairsVanillaCherryBlossomX-": {
+		"parentType": "Nach0StairsVanillaCherryBlossom",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0StairsVanillaCherryBlossomX+": {
+		"parentType": "Nach0StairsVanillaCherryBlossom",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0StairsVanillaCherryBlossomZ-": {
+		"parentType": "Nach0StairsVanillaCherryBlossom",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0StairsVanillaCherryBlossomZ+": {
+		"parentType": "Nach0StairsVanillaCherryBlossom",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0StairsVanillaClay": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaClay.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaClayX-",
+		"rotatablex+": "Nach0StairsVanillaClayX+",
+		"rotatablez-": "Nach0StairsVanillaClayZ-",
+		"rotatablez+": "Nach0StairsVanillaClayZ+"
+	},
+	"Nach0StairsVanillaClayX-": {
+		"parentType": "Nach0StairsVanillaClay",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "clay"
+	},
+	"Nach0StairsVanillaClayX+": {
+		"parentType": "Nach0StairsVanillaClay",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "clay"
+	},
+	"Nach0StairsVanillaClayZ-": {
+		"parentType": "Nach0StairsVanillaClay",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "clay"
+	},
+	"Nach0StairsVanillaClayZ+": {
+		"parentType": "Nach0StairsVanillaClay",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "clay"
+	},
+	"Nach0StairsVanilladarkstone": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanilladarkstone.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanilladarkstoneX-",
+		"rotatablex+": "Nach0StairsVanilladarkstoneX+",
+		"rotatablez-": "Nach0StairsVanilladarkstoneZ-",
+		"rotatablez+": "Nach0StairsVanilladarkstoneZ+"
+	},
+	"Nach0StairsVanilladarkstoneX-": {
+		"parentType": "Nach0StairsVanilladarkstone",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "infinitestone"
+	},
+	"Nach0StairsVanilladarkstoneX+": {
+		"parentType": "Nach0StairsVanilladarkstone",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "infinitestone"
+	},
+	"Nach0StairsVanilladarkstoneZ-": {
+		"parentType": "Nach0StairsVanilladarkstone",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "infinitestone"
+	},
+	"Nach0StairsVanilladarkstoneZ+": {
+		"parentType": "Nach0StairsVanilladarkstone",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "infinitestone"
+	},
+	"Nach0StairsVanilladirt": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanilladirt.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanilladirtX-",
+		"rotatablex+": "Nach0StairsVanilladirtX+",
+		"rotatablez-": "Nach0StairsVanilladirtZ-",
+		"rotatablez+": "Nach0StairsVanilladirtZ+"
+	},
+	"Nach0StairsVanilladirtX-": {
+		"parentType": "Nach0StairsVanilladirt",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0StairsVanilladirtX+": {
+		"parentType": "Nach0StairsVanilladirt",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0StairsVanilladirtZ-": {
+		"parentType": "Nach0StairsVanilladirt",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0StairsVanilladirtZ+": {
+		"parentType": "Nach0StairsVanilladirt",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0StairsVanillaironblock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaironblock.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaironblockX-",
+		"rotatablex+": "Nach0StairsVanillaironblockX+",
+		"rotatablez-": "Nach0StairsVanillaironblockZ-",
+		"rotatablez+": "Nach0StairsVanillaironblockZ+"
+	},
+	"Nach0StairsVanillaironblockX-": {
+		"parentType": "Nach0StairsVanillaironblock",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0StairsVanillaironblockX+": {
+		"parentType": "Nach0StairsVanillaironblock",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0StairsVanillaironblockZ-": {
+		"parentType": "Nach0StairsVanillaironblock",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0StairsVanillaironblockZ+": {
+		"parentType": "Nach0StairsVanillaironblock",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0StairsVanillaplasterblock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaplasterblock.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaplasterblockX-",
+		"rotatablex+": "Nach0StairsVanillaplasterblockX+",
+		"rotatablez-": "Nach0StairsVanillaplasterblockZ-",
+		"rotatablez+": "Nach0StairsVanillaplasterblockZ+"
+	},
+	"Nach0StairsVanillaplasterblockX-": {
+		"parentType": "Nach0StairsVanillaplasterblock",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0StairsVanillaplasterblockX+": {
+		"parentType": "Nach0StairsVanillaplasterblock",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0StairsVanillaplasterblockZ-": {
+		"parentType": "Nach0StairsVanillaplasterblock",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0StairsVanillaplasterblockZ+": {
+		"parentType": "Nach0StairsVanillaplasterblock",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0StairsVanillasand": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillasand.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillasandX-",
+		"rotatablex+": "Nach0StairsVanillasandX+",
+		"rotatablez-": "Nach0StairsVanillasandZ-",
+		"rotatablez+": "Nach0StairsVanillasandZ+"
+	},
+	"Nach0StairsVanillasandX-": {
+		"parentType": "Nach0StairsVanillasand",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "sand"
+	},
+	"Nach0StairsVanillasandX+": {
+		"parentType": "Nach0StairsVanillasand",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "sand"
+	},
+	"Nach0StairsVanillasandZ-": {
+		"parentType": "Nach0StairsVanillasand",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "sand"
+	},
+	"Nach0StairsVanillasandZ+": {
+		"parentType": "Nach0StairsVanillasand",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "sand"
+	},
+	"Nach0StairsVanillasnow": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillasnow.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillasnowX-",
+		"rotatablex+": "Nach0StairsVanillasnowX+",
+		"rotatablez-": "Nach0StairsVanillasnowZ-",
+		"rotatablez+": "Nach0StairsVanillasnowZ+"
+	},
+	"Nach0StairsVanillasnowX-": {
+		"parentType": "Nach0StairsVanillasnow",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "snow"
+	},
+	"Nach0StairsVanillasnowX+": {
+		"parentType": "Nach0StairsVanillasnow",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "snow"
+	},
+	"Nach0StairsVanillasnowZ-": {
+		"parentType": "Nach0StairsVanillasnow",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "snow"
+	},
+	"Nach0StairsVanillasnowZ+": {
+		"parentType": "Nach0StairsVanillasnow",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "snow"
+	},
+	"Nach0StairsVanillastoneblock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillastoneblock.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillastoneblockX-",
+		"rotatablex+": "Nach0StairsVanillastoneblockX+",
+		"rotatablez-": "Nach0StairsVanillastoneblockZ-",
+		"rotatablez+": "Nach0StairsVanillastoneblockZ+"
+	},
+	"Nach0StairsVanillastoneblockX-": {
+		"parentType": "Nach0StairsVanillastoneblock",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0StairsVanillastoneblockX+": {
+		"parentType": "Nach0StairsVanillastoneblock",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0StairsVanillastoneblockZ-": {
+		"parentType": "Nach0StairsVanillastoneblock",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0StairsVanillastoneblockZ+": {
+		"parentType": "Nach0StairsVanillastoneblock",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0StairsVanillastraw": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillastraw.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillastrawX-",
+		"rotatablex+": "Nach0StairsVanillastrawX+",
+		"rotatablez-": "Nach0StairsVanillastrawZ-",
+		"rotatablez+": "Nach0StairsVanillastrawZ+"
+	},
+	"Nach0StairsVanillastrawX-": {
+		"parentType": "Nach0StairsVanillastraw",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "straw"
+	},
+	"Nach0StairsVanillastrawX+": {
+		"parentType": "Nach0StairsVanillastraw",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "straw"
+	},
+	"Nach0StairsVanillastrawZ-": {
+		"parentType": "Nach0StairsVanillastraw",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "straw"
+	},
+	"Nach0StairsVanillastrawZ+": {
+		"parentType": "Nach0StairsVanillastraw",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "straw"
+	},
+	"Nach0StairsVanillagrassrainforest": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillagrassrainforest.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillagrassrainforestX-",
+		"rotatablex+": "Nach0StairsVanillagrassrainforestX+",
+		"rotatablez-": "Nach0StairsVanillagrassrainforestZ-",
+		"rotatablez+": "Nach0StairsVanillagrassrainforestZ+"
+	},
+	"Nach0StairsVanillagrassrainforestX-": {
+		"parentType": "Nach0StairsVanillagrassrainforest",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0StairsVanillagrassrainforestX+": {
+		"parentType": "Nach0StairsVanillagrassrainforest",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0StairsVanillagrassrainforestZ-": {
+		"parentType": "Nach0StairsVanillagrassrainforest",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0StairsVanillagrassrainforestZ+": {
+		"parentType": "Nach0StairsVanillagrassrainforest",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0StairsVanillagrasssavanna": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillagrasssavanna.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillagrasssavannaX-",
+		"rotatablex+": "Nach0StairsVanillagrasssavannaX+",
+		"rotatablez-": "Nach0StairsVanillagrasssavannaZ-",
+		"rotatablez+": "Nach0StairsVanillagrasssavannaZ+"
+	},
+	"Nach0StairsVanillagrasssavannaX-": {
+		"parentType": "Nach0StairsVanillagrasssavanna",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0StairsVanillagrasssavannaX+": {
+		"parentType": "Nach0StairsVanillagrasssavanna",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0StairsVanillagrasssavannaZ-": {
+		"parentType": "Nach0StairsVanillagrasssavanna",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0StairsVanillagrasssavannaZ+": {
+		"parentType": "Nach0StairsVanillagrasssavanna",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0StairsVanillagrasstaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillagrasstaiga.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillagrasstaigaX-",
+		"rotatablex+": "Nach0StairsVanillagrasstaigaX+",
+		"rotatablez-": "Nach0StairsVanillagrasstaigaZ-",
+		"rotatablez+": "Nach0StairsVanillagrasstaigaZ+"
+	},
+	"Nach0StairsVanillagrasstaigaX-": {
+		"parentType": "Nach0StairsVanillagrasstaiga",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0StairsVanillagrasstaigaX+": {
+		"parentType": "Nach0StairsVanillagrasstaiga",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0StairsVanillagrasstaigaZ-": {
+		"parentType": "Nach0StairsVanillagrasstaiga",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0StairsVanillagrasstaigaZ+": {
+		"parentType": "Nach0StairsVanillagrasstaiga",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0StairsVanillagrasstemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillagrasstemperate.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillagrasstemperateX-",
+		"rotatablex+": "Nach0StairsVanillagrasstemperateX+",
+		"rotatablez-": "Nach0StairsVanillagrasstemperateZ-",
+		"rotatablez+": "Nach0StairsVanillagrasstemperateZ+"
+	},
+	"Nach0StairsVanillagrasstemperateX-": {
+		"parentType": "Nach0StairsVanillagrasstemperate",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0StairsVanillagrasstemperateX+": {
+		"parentType": "Nach0StairsVanillagrasstemperate",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0StairsVanillagrasstemperateZ-": {
+		"parentType": "Nach0StairsVanillagrasstemperate",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0StairsVanillagrasstemperateZ+": {
+		"parentType": "Nach0StairsVanillagrasstemperate",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0StairsVanillagrasstundra": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillagrasstundra.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillagrasstundraX-",
+		"rotatablex+": "Nach0StairsVanillagrasstundraX+",
+		"rotatablez-": "Nach0StairsVanillagrasstundraZ-",
+		"rotatablez+": "Nach0StairsVanillagrasstundraZ+"
+	},
+	"Nach0StairsVanillagrasstundraX-": {
+		"parentType": "Nach0StairsVanillagrasstundra",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0StairsVanillagrasstundraX+": {
+		"parentType": "Nach0StairsVanillagrasstundra",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0StairsVanillagrasstundraZ-": {
+		"parentType": "Nach0StairsVanillagrasstundra",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0StairsVanillagrasstundraZ+": {
+		"parentType": "Nach0StairsVanillagrasstundra",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0StairsVanillaleavestaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaleavestaiga.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaleavestaigaX-",
+		"rotatablex+": "Nach0StairsVanillaleavestaigaX+",
+		"rotatablez-": "Nach0StairsVanillaleavestaigaZ-",
+		"rotatablez+": "Nach0StairsVanillaleavestaigaZ+"
+	},
+	"Nach0StairsVanillaleavestaigaX-": {
+		"parentType": "Nach0StairsVanillaleavestaiga",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0StairsVanillaleavestaigaX+": {
+		"parentType": "Nach0StairsVanillaleavestaiga",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0StairsVanillaleavestaigaZ-": {
+		"parentType": "Nach0StairsVanillaleavestaiga",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0StairsVanillaleavestaigaZ+": {
+		"parentType": "Nach0StairsVanillaleavestaiga",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0StairsVanillaleavestemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"stairs",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0StairsVanillaleavestemperate.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0StairsVanillaleavestemperateX-",
+		"rotatablex+": "Nach0StairsVanillaleavestemperateX+",
+		"rotatablez-": "Nach0StairsVanillaleavestemperateZ-",
+		"rotatablez+": "Nach0StairsVanillaleavestemperateZ+"
+	},
+	"Nach0StairsVanillaleavestemperateX-": {
+		"parentType": "Nach0StairsVanillaleavestemperate",
+		"mesh": "./meshes/StairsX-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.25, 0, 0.5],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0, 0.25, 0.5],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [-0.25, 0.5, 0.5],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0StairsVanillaleavestemperateX+": {
+		"parentType": "Nach0StairsVanillaleavestemperate",
+		"mesh": "./meshes/StairsX+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.25, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [0, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [0.25, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0StairsVanillaleavestemperateZ-": {
+		"parentType": "Nach0StairsVanillaleavestemperate",
+		"mesh": "./meshes/StairsZ-.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.25],
+					"min": [-0.5, -0.25, -0.5]
+				},
+				{
+					"max": [0.5, 0.25, 0],
+					"min": [-0.5, 0, -0.5]
+				},
+				{
+					"max": [0.5, 0.5, -0.25],
+					"min": [-0.5, 0.25, -0.5]
+				}
+			]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0StairsVanillaleavestemperateZ+": {
+		"parentType": "Nach0StairsVanillaleavestemperate",
+		"mesh": "./meshes/StairsZ+.obj",
+		"colliders": {
+			"boxes": [{
+					"max": [0.5, -0.25, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				},
+				{
+					"max": [0.5, 0, 0.5],
+					"min": [-0.5, -0.25, -0.25]
+				},
+				{
+					"max": [0.5, 0.25, 0.5],
+					"min": [-0.5, 0, 0]
+				},
+				{
+					"max": [0.5, 0.5, 0.5],
+					"min": [-0.5, 0.25, 0.25]
+				}
+			]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0SlabMaker": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0SlabMaker.png",
+		"sideall": "stoneblock",
+		"sidey+": "Nach0SlabMakerTop"
+	},
+	"Nach0StairMaker": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0StairMaker.png",
+		"sideall": "stoneblock",
+		"sidey+": "Nach0StairMakerTop"
+	},
+	"Nach0QuaterBlockVanillaLogTaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillalogtaiga.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillalogtaigaX-",
+		"rotatablex+": "Nach0QuaterBlockVanillalogtaigaX+",
+		"rotatablez-": "Nach0QuaterBlockVanillalogtaigaZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillalogtaigaZ+"
+	},
+	"Nach0QuaterBlockVanillalogtaigaX-": {
+		"parentType": "Nach0QuaterBlockVanillalogtaiga",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0QuaterBlockVanillalogtaigaX+": {
+		"parentType": "Nach0QuaterBlockVanillalogtaiga",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0QuaterBlockVanillalogtaigaZ-": {
+		"parentType": "Nach0QuaterBlockVanillalogtaiga",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0QuaterBlockVanillalogtaigaZ+": {
+		"parentType": "Nach0QuaterBlockVanillalogtaiga",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "logtaiga"
+	},
+	"Nach0QuaterBlockVanillalogtemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillalogtemperate.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillalogtemperateX-",
+		"rotatablex+": "Nach0QuaterBlockVanillalogtemperateX+",
+		"rotatablez-": "Nach0QuaterBlockVanillalogtemperateZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillalogtemperateZ+"
+	},
+	"Nach0QuaterBlockVanillalogtemperateX-": {
+		"parentType": "Nach0QuaterBlockVanillalogtemperate",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0QuaterBlockVanillalogtemperateX+": {
+		"parentType": "Nach0QuaterBlockVanillalogtemperate",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0QuaterBlockVanillalogtemperateZ-": {
+		"parentType": "Nach0QuaterBlockVanillalogtemperate",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0QuaterBlockVanillalogtemperateZ+": {
+		"parentType": "Nach0QuaterBlockVanillalogtemperate",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "logtemperate"
+	},
+	"Nach0QuaterBlockVanillaadobe": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillaadobe.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillaadobeX-",
+		"rotatablex+": "Nach0QuaterBlockVanillaadobeX+",
+		"rotatablez-": "Nach0QuaterBlockVanillaadobeZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillaadobeZ+"
+	},
+	"Nach0QuaterBlockVanillaadobeX-": {
+		"parentType": "Nach0QuaterBlockVanillaadobe",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0QuaterBlockVanillaadobeX+": {
+		"parentType": "Nach0QuaterBlockVanillaadobe",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0QuaterBlockVanillaadobeZ-": {
+		"parentType": "Nach0QuaterBlockVanillaadobe",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0QuaterBlockVanillaadobeZ+": {
+		"parentType": "Nach0QuaterBlockVanillaadobe",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "adobe"
+	},
+	"Nach0QuaterBlockVanillablackplanks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillablackplanks.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillablackplanksX-",
+		"rotatablex+": "Nach0QuaterBlockVanillablackplanksX+",
+		"rotatablez-": "Nach0QuaterBlockVanillablackplanksZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillablackplanksZ+"
+	},
+	"Nach0QuaterBlockVanillablackplanksX-": {
+		"parentType": "Nach0QuaterBlockVanillablackplanks",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0QuaterBlockVanillablackplanksX+": {
+		"parentType": "Nach0QuaterBlockVanillablackplanks",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0QuaterBlockVanillablackplanksZ-": {
+		"parentType": "Nach0QuaterBlockVanillablackplanks",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0QuaterBlockVanillablackplanksZ+": {
+		"parentType": "Nach0QuaterBlockVanillablackplanks",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "blackplanks"
+	},
+	"Nach0QuaterBlockVanillabricks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillabricks.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillabricksX-",
+		"rotatablex+": "Nach0QuaterBlockVanillabricksX+",
+		"rotatablez-": "Nach0QuaterBlockVanillabricksZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillabricksZ+"
+	},
+	"Nach0QuaterBlockVanillabricksX-": {
+		"parentType": "Nach0QuaterBlockVanillabricks",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0QuaterBlockVanillabricksX+": {
+		"parentType": "Nach0QuaterBlockVanillabricks",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0QuaterBlockVanillabricksZ-": {
+		"parentType": "Nach0QuaterBlockVanillabricks",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0QuaterBlockVanillabricksZ+": {
+		"parentType": "Nach0QuaterBlockVanillabricks",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "bricks"
+	},
+	"Nach0QuaterBlockVanillacherryblossom": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillacherryblossom.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillacherryblossomX-",
+		"rotatablex+": "Nach0QuaterBlockVanillacherryblossomX+",
+		"rotatablez-": "Nach0QuaterBlockVanillacherryblossomZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillacherryblossomZ+"
+	},
+	"Nach0QuaterBlockVanillacherryblossomX-": {
+		"parentType": "Nach0QuaterBlockVanillacherryblossom",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0QuaterBlockVanillacherryblossomX+": {
+		"parentType": "Nach0QuaterBlockVanillacherryblossom",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0QuaterBlockVanillacherryblossomZ-": {
+		"parentType": "Nach0QuaterBlockVanillacherryblossom",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0QuaterBlockVanillacherryblossomZ+": {
+		"parentType": "Nach0QuaterBlockVanillacherryblossom",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "cherryblossom"
+	},
+	"Nach0QuaterBlockVanillaclay": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillaclay.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillaclayX-",
+		"rotatablex+": "Nach0QuaterBlockVanillaclayX+",
+		"rotatablez-": "Nach0QuaterBlockVanillaclayZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillaclayZ+"
+	},
+	"Nach0QuaterBlockVanillaclayX-": {
+		"parentType": "Nach0QuaterBlockVanillaclay",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "clay"
+	},
+	"Nach0QuaterBlockVanillaclayX+": {
+		"parentType": "Nach0QuaterBlockVanillaclay",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "clay"
+	},
+	"Nach0QuaterBlockVanillaclayZ-": {
+		"parentType": "Nach0QuaterBlockVanillaclay",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "clay"
+	},
+	"Nach0QuaterBlockVanillaclayZ+": {
+		"parentType": "Nach0QuaterBlockVanillaclay",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "clay"
+	},
+	"Nach0QuaterBlockVanillacoatedplanks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillacoatedplanks.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillacoatedplanksX-",
+		"rotatablex+": "Nach0QuaterBlockVanillacoatedplanksX+",
+		"rotatablez-": "Nach0QuaterBlockVanillacoatedplanksZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillacoatedplanksZ+"
+	},
+	"Nach0QuaterBlockVanillacoatedplanksX-": {
+		"parentType": "Nach0QuaterBlockVanillacoatedplanks",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0QuaterBlockVanillacoatedplanksX+": {
+		"parentType": "Nach0QuaterBlockVanillacoatedplanks",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0QuaterBlockVanillacoatedplanksZ-": {
+		"parentType": "Nach0QuaterBlockVanillacoatedplanks",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0QuaterBlockVanillacoatedplanksZ+": {
+		"parentType": "Nach0QuaterBlockVanillacoatedplanks",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "coatedplanks"
+	},
+	"Nach0QuaterBlockVanilladarkstone": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanilladarkstone.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanilladarkstoneX-",
+		"rotatablex+": "Nach0QuaterBlockVanilladarkstoneX+",
+		"rotatablez-": "Nach0QuaterBlockVanilladarkstoneZ-",
+		"rotatablez+": "Nach0QuaterBlockVanilladarkstoneZ+"
+	},
+	"Nach0QuaterBlockVanilladarkstoneX-": {
+		"parentType": "Nach0QuaterBlockVanilladarkstone",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "darkstone"
+	},
+	"Nach0QuaterBlockVanilladarkstoneX+": {
+		"parentType": "Nach0QuaterBlockVanilladarkstone",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "darkstone"
+	},
+	"Nach0QuaterBlockVanilladarkstoneZ-": {
+		"parentType": "Nach0QuaterBlockVanilladarkstone",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "darkstone"
+	},
+	"Nach0QuaterBlockVanilladarkstoneZ+": {
+		"parentType": "Nach0QuaterBlockVanilladarkstone",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "darkstone"
+	},
+	"Nach0QuaterBlockVanilladirt": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanilladirt.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanilladirtX-",
+		"rotatablex+": "Nach0QuaterBlockVanilladirtX+",
+		"rotatablez-": "Nach0QuaterBlockVanilladirtZ-",
+		"rotatablez+": "Nach0QuaterBlockVanilladirtZ+"
+	},
+	"Nach0QuaterBlockVanilladirtX-": {
+		"parentType": "Nach0QuaterBlockVanilladirt",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0QuaterBlockVanilladirtX+": {
+		"parentType": "Nach0QuaterBlockVanilladirt",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0QuaterBlockVanilladirtZ-": {
+		"parentType": "Nach0QuaterBlockVanilladirt",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0QuaterBlockVanilladirtZ+": {
+		"parentType": "Nach0QuaterBlockVanilladirt",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "dirt"
+	},
+	"Nach0QuaterBlockVanillagrassrainforest": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillagrassrainforest.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillagrassrainforestX-",
+		"rotatablex+": "Nach0QuaterBlockVanillagrassrainforestX+",
+		"rotatablez-": "Nach0QuaterBlockVanillagrassrainforestZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillagrassrainforestZ+"
+	},
+	"Nach0QuaterBlockVanillagrassrainforestX-": {
+		"parentType": "Nach0QuaterBlockVanillagrassrainforest",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0QuaterBlockVanillagrassrainforestX+": {
+		"parentType": "Nach0QuaterBlockVanillagrassrainforest",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0QuaterBlockVanillagrassrainforestZ-": {
+		"parentType": "Nach0QuaterBlockVanillagrassrainforest",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0QuaterBlockVanillagrassrainforestZ+": {
+		"parentType": "Nach0QuaterBlockVanillagrassrainforest",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "grassrainforest"
+	},
+	"Nach0QuaterBlockVanillagrasssavanna": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillagrasssavanna.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillagrasssavannaX-",
+		"rotatablex+": "Nach0QuaterBlockVanillagrasssavannaX+",
+		"rotatablez-": "Nach0QuaterBlockVanillagrasssavannaZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillagrasssavannaZ+"
+	},
+	"Nach0QuaterBlockVanillagrasssavannaX-": {
+		"parentType": "Nach0QuaterBlockVanillagrasssavanna",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0QuaterBlockVanillagrasssavannaX+": {
+		"parentType": "Nach0QuaterBlockVanillagrasssavanna",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0QuaterBlockVanillagrasssavannaZ-": {
+		"parentType": "Nach0QuaterBlockVanillagrasssavanna",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0QuaterBlockVanillagrasssavannaZ+": {
+		"parentType": "Nach0QuaterBlockVanillagrasssavanna",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "grasssavanna"
+	},
+	"Nach0QuaterBlockVanillagrasstaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillagrasstaiga.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillagrasstaigaX-",
+		"rotatablex+": "Nach0QuaterBlockVanillagrasstaigaX+",
+		"rotatablez-": "Nach0QuaterBlockVanillagrasstaigaZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillagrasstaigaZ+"
+	},
+	"Nach0QuaterBlockVanillagrasstaigaX-": {
+		"parentType": "Nach0QuaterBlockVanillagrasstaiga",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0QuaterBlockVanillagrasstaigaX+": {
+		"parentType": "Nach0QuaterBlockVanillagrasstaiga",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0QuaterBlockVanillagrasstaigaZ-": {
+		"parentType": "Nach0QuaterBlockVanillagrasstaiga",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0QuaterBlockVanillagrasstaigaZ+": {
+		"parentType": "Nach0QuaterBlockVanillagrasstaiga",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "grasstaiga"
+	},
+	"Nach0QuaterBlockVanillagrasstemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillagrasstemperate.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillagrasstemperateX-",
+		"rotatablex+": "Nach0QuaterBlockVanillagrasstemperateX+",
+		"rotatablez-": "Nach0QuaterBlockVanillagrasstemperateZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillagrasstemperateZ+"
+	},
+	"Nach0QuaterBlockVanillagrasstemperateX-": {
+		"parentType": "Nach0QuaterBlockVanillagrasstemperate",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0QuaterBlockVanillagrasstemperateX+": {
+		"parentType": "Nach0QuaterBlockVanillagrasstemperate",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0QuaterBlockVanillagrasstemperateZ-": {
+		"parentType": "Nach0QuaterBlockVanillagrasstemperate",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0QuaterBlockVanillagrasstemperateZ+": {
+		"parentType": "Nach0QuaterBlockVanillagrasstemperate",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "grasstemperate"
+	},
+	"Nach0QuaterBlockVanillagrasstundra": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillagrasstundra.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillagrasstundraX-",
+		"rotatablex+": "Nach0QuaterBlockVanillagrasstundraX+",
+		"rotatablez-": "Nach0QuaterBlockVanillagrasstundraZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillagrasstundraZ+"
+	},
+	"Nach0QuaterBlockVanillagrasstundraX-": {
+		"parentType": "Nach0QuaterBlockVanillagrasstundra",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0QuaterBlockVanillagrasstundraX+": {
+		"parentType": "Nach0QuaterBlockVanillagrasstundra",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0QuaterBlockVanillagrasstundraZ-": {
+		"parentType": "Nach0QuaterBlockVanillagrasstundra",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0QuaterBlockVanillagrasstundraZ+": {
+		"parentType": "Nach0QuaterBlockVanillagrasstundra",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "grasstundra"
+	},
+	"Nach0QuaterBlockVanillaironblock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillaironblock.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillaironblockX-",
+		"rotatablex+": "Nach0QuaterBlockVanillaironblockX+",
+		"rotatablez-": "Nach0QuaterBlockVanillaironblockZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillaironblockZ+"
+	},
+	"Nach0QuaterBlockVanillaironblockX-": {
+		"parentType": "Nach0QuaterBlockVanillaironblock",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0QuaterBlockVanillaironblockX+": {
+		"parentType": "Nach0QuaterBlockVanillaironblock",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0QuaterBlockVanillaironblockZ-": {
+		"parentType": "Nach0QuaterBlockVanillaironblock",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0QuaterBlockVanillaironblockZ+": {
+		"parentType": "Nach0QuaterBlockVanillaironblock",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "ironblock"
+	},
+	"Nach0QuaterBlockVanillaleavestaiga": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillaleavestaiga.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillaleavestaigaX-",
+		"rotatablex+": "Nach0QuaterBlockVanillaleavestaigaX+",
+		"rotatablez-": "Nach0QuaterBlockVanillaleavestaigaZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillaleavestaigaZ+"
+	},
+	"Nach0QuaterBlockVanillaleavestaigaX-": {
+		"parentType": "Nach0QuaterBlockVanillaleavestaiga",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0QuaterBlockVanillaleavestaigaX+": {
+		"parentType": "Nach0QuaterBlockVanillaleavestaiga",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0QuaterBlockVanillaleavestaigaZ-": {
+		"parentType": "Nach0QuaterBlockVanillaleavestaiga",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0QuaterBlockVanillaleavestaigaZ+": {
+		"parentType": "Nach0QuaterBlockVanillaleavestaiga",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "leavestaiga"
+	},
+	"Nach0QuaterBlockVanillaleavestemperate": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillaleavestemperate.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillaleavestemperateX-",
+		"rotatablex+": "Nach0QuaterBlockVanillaleavestemperateX+",
+		"rotatablez-": "Nach0QuaterBlockVanillaleavestemperateZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillaleavestemperateZ+"
+	},
+	"Nach0QuaterBlockVanillaleavestemperateX-": {
+		"parentType": "Nach0QuaterBlockVanillaleavestemperate",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0QuaterBlockVanillaleavestemperateX+": {
+		"parentType": "Nach0QuaterBlockVanillaleavestemperate",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0QuaterBlockVanillaleavestemperateZ-": {
+		"parentType": "Nach0QuaterBlockVanillaleavestemperate",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0QuaterBlockVanillaleavestemperateZ+": {
+		"parentType": "Nach0QuaterBlockVanillaleavestemperate",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "leavestemperate"
+	},
+	"Nach0QuaterBlockVanillaplanks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillaplanks.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillaplanksX-",
+		"rotatablex+": "Nach0QuaterBlockVanillaplanksX+",
+		"rotatablez-": "Nach0QuaterBlockVanillaplanksZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillaplanksZ+"
+	},
+	"Nach0QuaterBlockVanillaplanksX-": {
+		"parentType": "Nach0QuaterBlockVanillaplanks",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "planks"
+	},
+	"Nach0QuaterBlockVanillaplanksX+": {
+		"parentType": "Nach0QuaterBlockVanillaplanks",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "planks"
+	},
+	"Nach0QuaterBlockVanillaplanksZ-": {
+		"parentType": "Nach0QuaterBlockVanillaplanks",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "planks"
+	},
+	"Nach0QuaterBlockVanillaplanksZ+": {
+		"parentType": "Nach0QuaterBlockVanillaplanks",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "planks"
+	},
+	"Nach0QuaterBlockVanillaplasterblock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillaplasterblock.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillaplasterblockX-",
+		"rotatablex+": "Nach0QuaterBlockVanillaplasterblockX+",
+		"rotatablez-": "Nach0QuaterBlockVanillaplasterblockZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillaplasterblockZ+"
+	},
+	"Nach0QuaterBlockVanillaplasterblockX-": {
+		"parentType": "Nach0QuaterBlockVanillaplasterblock",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0QuaterBlockVanillaplasterblockX+": {
+		"parentType": "Nach0QuaterBlockVanillaplasterblock",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0QuaterBlockVanillaplasterblockZ-": {
+		"parentType": "Nach0QuaterBlockVanillaplasterblock",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0QuaterBlockVanillaplasterblockZ+": {
+		"parentType": "Nach0QuaterBlockVanillaplasterblock",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "plasterblock"
+	},
+	"Nach0QuaterBlockVanillasand": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillasand.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillasandX-",
+		"rotatablex+": "Nach0QuaterBlockVanillasandX+",
+		"rotatablez-": "Nach0QuaterBlockVanillasandZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillasandZ+"
+	},
+	"Nach0QuaterBlockVanillasandX-": {
+		"parentType": "Nach0QuaterBlockVanillasand",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "sand"
+	},
+	"Nach0QuaterBlockVanillasandX+": {
+		"parentType": "Nach0QuaterBlockVanillasand",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "sand"
+	},
+	"Nach0QuaterBlockVanillasandZ-": {
+		"parentType": "Nach0QuaterBlockVanillasand",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "sand"
+	},
+	"Nach0QuaterBlockVanillasandZ+": {
+		"parentType": "Nach0QuaterBlockVanillasand",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "sand"
+	},
+	"Nach0QuaterBlockVanillasnow": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillasnow.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillasnowX-",
+		"rotatablex+": "Nach0QuaterBlockVanillasnowX+",
+		"rotatablez-": "Nach0QuaterBlockVanillasnowZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillasnowZ+"
+	},
+	"Nach0QuaterBlockVanillasnowX-": {
+		"parentType": "Nach0QuaterBlockVanillasnow",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "snow"
+	},
+	"Nach0QuaterBlockVanillasnowX+": {
+		"parentType": "Nach0QuaterBlockVanillasnow",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "snow"
+	},
+	"Nach0QuaterBlockVanillasnowZ-": {
+		"parentType": "Nach0QuaterBlockVanillasnow",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "snow"
+	},
+	"Nach0QuaterBlockVanillasnowZ+": {
+		"parentType": "Nach0QuaterBlockVanillasnow",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "snow"
+	},
+	"Nach0QuaterBlockVanillastoneblock": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillastoneblock.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillastoneblockX-",
+		"rotatablex+": "Nach0QuaterBlockVanillastoneblockX+",
+		"rotatablez-": "Nach0QuaterBlockVanillastoneblockZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillastoneblockZ+"
+	},
+	"Nach0QuaterBlockVanillastoneblockX-": {
+		"parentType": "Nach0QuaterBlockVanillastoneblock",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0QuaterBlockVanillastoneblockX+": {
+		"parentType": "Nach0QuaterBlockVanillastoneblock",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0QuaterBlockVanillastoneblockZ-": {
+		"parentType": "Nach0QuaterBlockVanillastoneblock",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0QuaterBlockVanillastoneblockZ+": {
+		"parentType": "Nach0QuaterBlockVanillastoneblock",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "stoneblock"
+	},
+	"Nach0QuaterBlockVanillastonebricks": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillastonebricks.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillastonebricksX-",
+		"rotatablex+": "Nach0QuaterBlockVanillastonebricksX+",
+		"rotatablez-": "Nach0QuaterBlockVanillastonebricksZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillastonebricksZ+"
+	},
+	"Nach0QuaterBlockVanillastonebricksX-": {
+		"parentType": "Nach0QuaterBlockVanillastonebricks",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0QuaterBlockVanillastonebricksX+": {
+		"parentType": "Nach0QuaterBlockVanillastonebricks",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0QuaterBlockVanillastonebricksZ-": {
+		"parentType": "Nach0QuaterBlockVanillastonebricks",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0QuaterBlockVanillastonebricksZ+": {
+		"parentType": "Nach0QuaterBlockVanillastonebricks",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "stonebricks"
+	},
+	"Nach0QuaterBlockVanillastraw": {
+		"categories": [
+			"nach0",
+			"MoreDecorations",
+			"quaterblocks",
+			"flat",
+			"vanilla",
+			"decorative"
+		],
+		"icon": "./textures/icons/Nach0QuaterBlockVanillastraw.png",
+		"maxStackSize": 200,
+		"isPlaceable": true,
+		"needsBase": false,
+		"isRotatable": true,
+		"rotatablex-": "Nach0QuaterBlockVanillastrawX-",
+		"rotatablex+": "Nach0QuaterBlockVanillastrawX+",
+		"rotatablez-": "Nach0QuaterBlockVanillastrawZ-",
+		"rotatablez+": "Nach0QuaterBlockVanillastrawZ+"
+	},
+	"Nach0QuaterBlockVanillastrawX-": {
+		"parentType": "Nach0QuaterBlockVanillastraw",
+		"mesh": "./meshes/quarterblockx-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0, 0, 0.5],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "straw"
+	},
+	"Nach0QuaterBlockVanillastrawX+": {
+		"parentType": "Nach0QuaterBlockVanillastraw",
+		"mesh": "./meshes/quarterblockx+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [0, -0.5, -0.5]
+			}]
+		},
+		"sideall": "straw"
+	},
+	"Nach0QuaterBlockVanillastrawZ-": {
+		"parentType": "Nach0QuaterBlockVanillastraw",
+		"mesh": "./meshes/quarterblockz-.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0],
+				"min": [-0.5, -0.5, -0.5]
+			}]
+		},
+		"sideall": "straw"
+	},
+	"Nach0QuaterBlockVanillastrawZ+": {
+		"parentType": "Nach0QuaterBlockVanillastraw",
+		"mesh": "./meshes/quarterblockz+.obj",
+		"colliders": {
+			"boxes": [{
+				"max": [0.5, 0, 0.5],
+				"min": [-0.5, -0.5, 0]
+			}]
+		},
+		"sideall": "straw"
+	}
+}

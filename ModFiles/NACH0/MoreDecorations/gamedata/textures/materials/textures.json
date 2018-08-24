@@ -1,0 +1,19 @@
+{
+	"_settings" : {
+		"defaultAlbedo" : "./albedo/Nach0Missing.png",
+		"defaultEmissive" : "./emissiveMaskAlpha/default.png",
+		"defaultHeight" : "./heightSmoothnessSpecularity/default.png",
+		"defaultNormal" : "./normal/default.png",
+		"fileExtension" : ".png",
+		"folderAlbedo" : "./albedo/",
+		"folderEmissive" : "./emissiveMaskAlpha/",
+		"folderHeight" : "./heightSmoothnessSpecularity/",
+		"folderNormal" : "./normal/"
+	},
+	"Nach0SlabMakerTop": {
+		"albedo": "Nach0SlabMakerTop"
+	},
+	"Nach0StairMakerTop": {
+		"albedo": "Nach0StairMakerTop"
+	}
+}

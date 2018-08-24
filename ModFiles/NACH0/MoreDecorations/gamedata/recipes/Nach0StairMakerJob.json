@@ -1,0 +1,365 @@
+[{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaLogTaiga-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "logtaiga"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaLogTaiga"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaLogTemperate-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "logtemperate"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaLogTemperate"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0VanillaPlanksStairs-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "planks"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0VanillaPlanksStairs"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaClay-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "clay"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaClay"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaAdobe-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "adobe"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaAdobe"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaCherryBlossom-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "cherryblossom"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaCherryBlossom"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanilladarkstone-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "darkstone"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanilladarkstone"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanilladirt-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "dirt"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanilladirt"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaironblock-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "ironblock"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaironblock"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaplasterblock-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "plasterblock"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaplasterblock"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillasand-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "sand"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillasand"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillasnow-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "snow"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillasnow"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillastoneblock-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "stoneblock"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillastoneblock"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillastraw-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "straw"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillastraw"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0VanillaStoneBricksStairs-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0VanillaStoneBricksStairs"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0VanillaBricksStairs-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "bricks"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0VanillaBricksStairs"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillagrassrainforest-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "grassrainforest"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillagrassrainforest"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaGrassSavana-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "grasssavanna"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillagrasssavanna"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaGrassTaiga-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "grasstaiga"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillagrasstaiga"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaGrassTemperate-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "grasstemperate"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillagrasstemperate"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaGrassTundra-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "grasstundra"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillagrasstundra"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaLeavesTaiga-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "leavestaiga"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaleavestaiga"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaLeavesTemperate-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "leavestemperate"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0StairsVanillaleavestemperate"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0VanillaCoatedBlackPlanksStairs-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "blackplanks"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0VanillaCoatedBlackPlanksStairs"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0StairsVanillaCoatedPlanks-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "coatedplanks"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0VanillaCoatedPlanksStairs"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0VanillaRedPlanksStairs-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "redplanks"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0VanillaRedPlanksStairs"
+		}]
+	}
+]

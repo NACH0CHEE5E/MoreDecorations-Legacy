@@ -1,0 +1,17 @@
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\obj\Debug\MoreDecorations.csprojAssemblyReference.cache
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\obj\Debug\MoreDecorations.csproj.CoreCompileInputs.cache
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\MoreDecorations.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\MoreDecorations.pdb
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\APIProvider.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\Assembly-CSharp.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\BaseGame.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\Open.Nat.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\System.Threading.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\UnityEngine.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\UnityEngine.UI.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\APIProvider.pdb
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\bin\Debug\BaseGame.pdb
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\obj\Debug\MoreDecorations.csproj.CopyComplete
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\obj\Debug\MoreDecorations.dll
+C:\Users\mitch\Desktop\GitHub\MoreDecorations\obj\Debug\MoreDecorations.pdb
