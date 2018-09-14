@@ -69,6 +69,15 @@
 		],
 	"patchnotes": [
 	{
+	"version": "1.1.0",
+	"notes": [
+		"Added slabs, stairs, quarterblocks (in three varieties). For all block textures there is also a purchasable lumberarea block in the shop.",
+		"makers can be found in the workbench",
+		"*If you find any issues or have suggestions join the discord",
+					"*discord.gg/tqFhxhm"
+					]
+					},
+	{
 		"version": "1.0.1",
 		"notes": [
 			"Thanks to Lordis3D for help with the meshes making them look nicer",
