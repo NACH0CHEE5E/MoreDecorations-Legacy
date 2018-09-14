@@ -18,6 +18,10 @@
 			"relativePath": "gamedata/types.json"
 		},
 		{
+			"fileType": "addOrOverrideLocalization",
+			"relativePath": "gamedata/locale/en-US.json"
+		},
+		{
 				"fileType" : "addOrReplaceNPCRecipes",
 				"index" : -1000000,
 				"limitsUIMapping" : [
@@ -34,6 +38,33 @@
 				],
 				"npcType" : "Nach0StairMakerJob",
 				"relativePath" : "gamedata/recipes/Nach0StairMakerJob.json"
+			},
+		{
+				"fileType" : "addOrReplaceNPCRecipes",
+				"index" : -1000000,
+				"limitsUIMapping" : [
+					"Nach0QuarterBlockMaker"
+				],
+				"npcType" : "Nach0QuarterBlockMakerJob",
+				"relativePath" : "gamedata/recipes/Nach0QuarterBlockMakerJob.json"
+			},
+		{
+				"fileType" : "addOrReplaceNPCRecipes",
+				"index" : -1000000,
+				"limitsUIMapping" : [
+					"workbench"
+				],
+				"npcType" : "pipliz.crafter",
+				"relativePath" : "gamedata/recipes/pipliz.crafter.json"
+			},
+		{
+				"fileType" : "addOrReplaceNPCRecipes",
+				"index" : -1000000,
+				"limitsUIMapping" : [
+					"shop"
+				],
+				"npcType" : "pipliz.merchant",
+				"relativePath" : "gamedata/recipes/pipliz.merchant.json"
 			}
 		],
 	"patchnotes": [

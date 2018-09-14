@@ -22,6 +22,7 @@ namespace jobentrys
         {
             BlockJobManagerTracker.Register<Jobs.Nach0SlabMakerJob>("Nach0SlabMaker");
             BlockJobManagerTracker.Register<Jobs.Nach0StairMakerJob>("Nach0StairMaker");
+            BlockJobManagerTracker.Register<Jobs.Nach0QuarterBlockMakerJob>("Nach0QuarterBlockMaker");
         }
     }
 }

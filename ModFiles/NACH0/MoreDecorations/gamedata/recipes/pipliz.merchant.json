@@ -1,0 +1,15 @@
+[{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0LumberArea-pipliz.merchant",
+		"requires": [{
+			"amount": 50,
+			"type": "goldcoin"
+		}],
+		"results": [{
+			"amount": 3,
+			"type": "Nach0LumberArea"
+		}]
+	}
+]

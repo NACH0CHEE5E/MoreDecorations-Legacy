@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlockJobsModEntries.cs" />
+    <Compile Include="Jobs\Nach0QuarterBlockMakerJob.cs" />
     <Compile Include="Jobs\Nach0StairMakerJob.cs" />
     <Compile Include="Jobs\Nach0SlabMakerJob.cs" />
   </ItemGroup>

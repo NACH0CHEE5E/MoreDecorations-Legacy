@@ -1,0 +1,1135 @@
+[{
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillalogtaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "logtaiga"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillalogtaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillalogtemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "logtemperate"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillalogtemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "planks"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaadobe-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "adobe"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaadobe"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillacherryblossom-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "cherryblossom"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillacherryblossom"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaclay-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "clay"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaclay"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanilladarkstone-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "darkstone"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanilladarkstone"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanilladirt-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "dirt"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanilladirt"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaironblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "ironblock"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaironblock"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaplasterblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "plasterblock"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaplasterblock"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillasand-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "sand"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillasand"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillasnow-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "snow"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillasnow"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillastone-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "stoneblock"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillastoneblock"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillastraw-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "straw"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillastraw"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillabricks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "bricks"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillabricks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillastonebricks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "stonebricks"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillastonebricks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillagrassrainforest-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "grassrainforest"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillagrassrainforest"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillagrasssavanna-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "grasssavanna"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillagrasssavanna"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillagrasstaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "grasstaiga"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillagrasstaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillagrasstemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "grasstemperate"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillagrasstemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillagrasstundra-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "grasstundra"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillagrasstundra"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillablackplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "blackplanks"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillablackplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaredplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "redplanks"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaredplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillacoatedplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "coatedplanks"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillacoatedplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaleavestaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "leavestaiga"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaleavestaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillaleavestemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "leavestemperate"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillaleavestemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0QuaterBlockVanillalumberarea-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0LumberArea"
+	}],
+	"results": [{
+		"amount": 4,
+		"type": "Nach0QuaterBlockVanillalumberarea"
+	}]
+},{
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillalogtaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillalogtaiga"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillalogtaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillalogtemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillalogtemperate"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillalegtemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaadobe-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaadobe"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaadobe"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillacherryblossom-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillacherryblossom"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillacherryblossom"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaclay-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaclay"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaclay"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanilladarkstone-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanilladarkstone"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanilladarkstone"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanilladirt-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanilladirt"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanilladirt"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaironblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaironblock"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaironblock"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaplasterblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaplasterblock"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaplasterblock"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillasand-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillasand"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillasand"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillasnow-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillasnow"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillasnow"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillastoneblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillastoneblock"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillastone"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillastraw-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillastraw"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillastraw"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillabricks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillabricks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillabricks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillastonebricks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillastonebricks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillastonebricks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillagrassrainforest-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrassrainforest"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillagrassrainforest"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillagrasssavanna-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasssavanna"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillagrasssavanna"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillagrasstaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasstaiga"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillagrasstaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillagrasstemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasstemperate"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillagrasstemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillagrasstundra-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasstundra"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillagrasstundra"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillalumberarea-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillalumberarea"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillalumberarea"
+	}]
+},{
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaleavestaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaleavestaiga"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaleavestaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaleavestemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaleavestemperate"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaleavestemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillablackplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillablackplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillablackplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillaredplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaredplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillaredplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0CornerBlockVanillacoatedplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillacoatedplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0CornerBlockVanillacoatedplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillalogtaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillalogtaiga"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillalogtaiga"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillalogtaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillalogtemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillalogtemperate"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillalegtemperate"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillalogtemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaplanks"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillalumberarea-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillalumberarea"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillalumberarea"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillalumberarea"
+	}]
+},{
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaadobe-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaadobe"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaadobe"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaadobe"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillacherryblossom-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillacherryblossom"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillacherryblossom"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillacherryblossom"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaclay-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaclay"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaclay"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaclay"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanilladarkstone-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanilladarkstone"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanilladarkstone"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanilladarkstone"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanilladirt-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanilladirt"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanilladirt"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanilladirt"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaironblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaironblock"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaironblock"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaironblock"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaplasterblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaplasterblock"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaplasterblock"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaplasterblock"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillasnow-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillasnow"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillasnow"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillasnow"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillasand-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillasand"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillasand"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillasand"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillastoneblock-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillastoneblock"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillastone"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillastone"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillastraw-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillastraw"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillastraw"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillastraw"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillabricks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillabricks"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillabricks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillabricks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillastonebricks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillastonebricks"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillastonebricks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillastonebricks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillagrassrainforest-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrassrainforest"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillagrassrainforest"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillagrassrainforest"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillagrasssavanna-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasssavanna"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillagrasssavanna"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillagrasssavanna"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillagrasstaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasstaiga"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillagrasstaiga"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillagrasstaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillagrasstemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasstemperate"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillagrasstemperate"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillagrasstemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillagrasstundra-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillagrasstundra"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillagrasstundra"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillagrasstundra"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaleavestaiga-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaleavestaiga"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaleavestaiga"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaleavestaiga"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaleavestemperate-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaleavestemperate"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaleavestemperate"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaleavestemperate"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillablackplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillablackplanks"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillablackplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillablackplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillaredplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillaredplanks"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillaredplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillaredplanks"
+	}]
+}, {
+	"defaultLimit": 0,
+	"defaultPriority": -100,
+	"isOptional": false,
+	"name": "Nach0lblockVanillacoatedplanks-Nach0QuarterBlockMakerJob",
+	"requires": [{
+		"amount": 1,
+		"type": "Nach0QuaterBlockVanillacoatedplanks"
+	}, {
+		"amount": 1,
+		"type": "Nach0CornerBlockVanillacoatedplanks"
+	}],
+	"results": [{
+		"amount": 2,
+		"type": "Nach0lblockVanillacoatedplanks"
+	}]
+}]

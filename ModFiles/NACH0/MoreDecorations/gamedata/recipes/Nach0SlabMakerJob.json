@@ -13,6 +13,21 @@
 				"type": "Nach0SlabVanillaLogTaiga"
 			}
 		]
+	},{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
+		"name": "Nach0SlabVanillalumberarea-Nach0SlabMakerJob",
+		"requires": [{
+				"amount": 1,
+				"type": "Nach0LumberArea"
+			},
+		],
+		"results": [{
+				"amount": 2,
+				"type": "Nach0SlabVanillalumberarea"
+			}
+		]
 	},
 	{
 		"defaultLimit": 0,

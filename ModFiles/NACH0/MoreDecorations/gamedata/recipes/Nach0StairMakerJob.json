@@ -16,6 +16,20 @@
 		"defaultLimit": 0,
 		"defaultPriority": -100,
 		"isOptional": false,
+		"name": "Nach0VanillalumberareaStairs-Nach0StairMakerJob",
+		"requires": [{
+			"amount": 1,
+			"type": "Nach0LumberArea"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "Nach0VanillalumberareaStairs"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"isOptional": false,
 		"name": "Nach0StairsVanillaLogTemperate-Nach0StairMakerJob",
 		"requires": [{
 			"amount": 1,
