@@ -1,4 +1,4 @@
-﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -6,7 +6,7 @@
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>MoreDecorations</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -18,6 +18,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -26,19 +27,19 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <RootNamespace>MoreDecorations</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="APIProvider">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\APIProvider.dll</HintPath>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="BaseGame">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\BaseGame.dll</HintPath>
+    <Reference Include="BaseGame, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\BaseGame.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
@@ -58,15 +59,12 @@
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\colonyserver_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\UnityEngine.UI.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="BlockJobsModEntries.cs" />
-    <Compile Include="Jobs\Nach0QuarterBlockMakerJob.cs" />
-    <Compile Include="Jobs\Nach0StairMakerJob.cs" />
-    <Compile Include="Jobs\Nach0SlabMakerJob.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".git\config" />
@@ -97,17 +95,37 @@
     <None Include=".git\refs\heads\master" />
     <None Include=".git\refs\remotes\origin\HEAD" />
     <None Include=".git\refs\tags\0.0.1" />
-    <None Include="ModFiles\MoreDecorations_0.0.1.zip" />
-    <None Include="ModFiles\MoreDecorations_0.1.0.zip" />
-    <None Include="ModFiles\NACH0\MoreDecorations\gamedata\meshes\slabdown.obj" />
-    <None Include="ModFiles\NACH0\MoreDecorations\gamedata\meshes\slabup.obj" />
-    <None Include="ModFiles\NACH0\MoreDecorations\gamedata\types.json" />
-    <None Include="ModFiles\NACH0\MoreDecorations\modInfo.json" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".git\objects\info\" />
     <Folder Include=".git\objects\pack\" />
+    <Folder Include="ModFiles\NACH0\MoreDecorations\" />
+    <Folder Include="Types\GenerateTypes\stairs\flipped\corner\" />
+    <Folder Include="Types\GenerateTypes\stairs\flipped\inverted-corner\" />
+    <Folder Include="Types\GenerateTypes\stairs\non-flipped\corner\" />
+    <Folder Include="Types\GenerateTypes\stairs\non-flipped\inverted-corner\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Types\GenerateTypeConfig.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\corner\raised.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\corner\standard.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\edge\raised.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\edge\standard.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\corners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\invertedcorners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\standard.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\tiled.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\standard\standard.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\nontiled.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\standard\raised.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\invertedcorners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\corners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\standard.cs" />
+    <Compile Include="Types\GenerateTypes\slabs\vertical.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\nontiled.cs" />
+    <Compile Include="Types\GenerateTypes\slabs\standard.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\tiled.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
