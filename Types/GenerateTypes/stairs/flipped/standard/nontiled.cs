@@ -20,7 +20,7 @@ namespace MoreDecorations.Types.GenerateTypes.Stairs
             {
                 var currentType = GenerateTypeConfig.nonTiledList.GetValue(i);
                 var typeName = GenerateTypeConfig.typePrefix + type + "." + currentType;
-
+                
                 types.Add(typeName, new ItemTypeRaw(typeName, new JSONNode()
                      .SetAs("categories", new JSONNode(NodeType.Array)
                         .AddToArray(new JSONNode("nach0"))

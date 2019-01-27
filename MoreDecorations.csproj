@@ -44,6 +44,9 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Open.Nat">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Colony Survival\gamedata\mods\Pipliz\BaseGame\src\bin\Debug\Open.Nat.dll</HintPath>
     </Reference>
@@ -95,37 +98,17 @@
     <None Include=".git\refs\heads\master" />
     <None Include=".git\refs\remotes\origin\HEAD" />
     <None Include=".git\refs\tags\0.0.1" />
+    <None Include="packages.config" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".git\objects\info\" />
     <Folder Include=".git\objects\pack\" />
     <Folder Include="ModFiles\NACH0\MoreDecorations\" />
-    <Folder Include="Types\GenerateTypes\stairs\flipped\corner\" />
-    <Folder Include="Types\GenerateTypes\stairs\flipped\inverted-corner\" />
-    <Folder Include="Types\GenerateTypes\stairs\non-flipped\corner\" />
-    <Folder Include="Types\GenerateTypes\stairs\non-flipped\inverted-corner\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Types\GenerateTypeConfig.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\corner\raised.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\corner\standard.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\edge\raised.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\edge\standard.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\flipped\corners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\flipped\invertedcorners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\flipped\standard.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\tiled.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\standard\standard.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\nontiled.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\standard\raised.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\standard\invertedcorners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\standard\corners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\standard\standard.cs" />
-    <Compile Include="Types\GenerateTypes\slabs\vertical.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\nontiled.cs" />
     <Compile Include="Types\GenerateTypes\slabs\standard.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\tiled.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
