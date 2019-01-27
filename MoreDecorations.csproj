@@ -70,45 +70,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include=".git\config" />
-    <None Include=".git\description" />
-    <None Include=".git\FETCH_HEAD" />
-    <None Include=".git\HEAD" />
-    <None Include=".git\hooks\applypatch-msg.sample" />
-    <None Include=".git\hooks\commit-msg.sample" />
-    <None Include=".git\hooks\fsmonitor-watchman.sample" />
-    <None Include=".git\hooks\post-update.sample" />
-    <None Include=".git\hooks\pre-applypatch.sample" />
-    <None Include=".git\hooks\pre-commit.sample" />
-    <None Include=".git\hooks\pre-push.sample" />
-    <None Include=".git\hooks\pre-rebase.sample" />
-    <None Include=".git\hooks\pre-receive.sample" />
-    <None Include=".git\hooks\prepare-commit-msg.sample" />
-    <None Include=".git\hooks\update.sample" />
-    <None Include=".git\index" />
-    <None Include=".git\info\exclude" />
-    <None Include=".git\logs\HEAD" />
-    <None Include=".git\logs\refs\heads\master" />
-    <None Include=".git\logs\refs\remotes\origin\HEAD" />
-    <None Include=".git\objects\ac\289b4c17417d7dd2b345140ec4e45018a698c6" />
-    <None Include=".git\objects\c1\52d4cfe25eef3c8b79e0b7cd4220db05696f22" />
-    <None Include=".git\objects\c3\c2e0ec62bdca6a3e62b115a774127c1febdf98" />
-    <None Include=".git\objects\ff\c0c6e09fc440a52bac409ce6e9e44f7490917c" />
-    <None Include=".git\packed-refs" />
-    <None Include=".git\refs\heads\master" />
-    <None Include=".git\refs\remotes\origin\HEAD" />
-    <None Include=".git\refs\tags\0.0.1" />
+    <None Include="blender meshes\cornerblock.blend">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="blender meshes\cornerblock.blend1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="blender meshes\down.slab.blend">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="blender meshes\edgeblock.blend">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="blender meshes\quarterblock.blend">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="blender meshes\up.slab.blend">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include=".git\objects\info\" />
-    <Folder Include=".git\objects\pack\" />
     <Folder Include="ModFiles\NACH0\MoreDecorations\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlockJobsModEntries.cs" />
+    <Compile Include="Jobs\Nach0QuarterBlockMakerJob.cs" />
+    <Compile Include="Jobs\Nach0SlabMakerJob.cs" />
+    <Compile Include="Jobs\Nach0StairMakerJob.cs" />
+    <Compile Include="Models\Colliders.cs" />
+    <Compile Include="Models\CSType.cs" />
+    <Compile Include="Models\ICSRecipe.cs" />
+    <Compile Include="Models\ICSType.cs" />
+    <Compile Include="Models\OnRemove.cs" />
     <Compile Include="Types\GenerateTypeConfig.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\corner\raised.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\corner\standard.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\edge\raised.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\edge\standard.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\standard\raised.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\standard\standard.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\corners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\invertedcorners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\standard.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\corners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\invertedcorners.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\standard.cs" />
     <Compile Include="Types\GenerateTypes\slabs\standard.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\nontiled.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\tiled.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\nontiled.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\tiled.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
