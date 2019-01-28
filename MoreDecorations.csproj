@@ -5,7 +5,7 @@
     <ProjectGuid>{5FA8E008-1104-41DA-A57F-FFCF840DE19F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>MoreDecorations</AssemblyName>
+    <AssemblyName>Decor</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -30,7 +30,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>MoreDecorations</RootNamespace>
+    <RootNamespace>Decor</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -95,33 +95,13 @@
     <Folder Include="ModFiles\NACH0\MoreDecorations\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BlockJobsModEntries.cs" />
-    <Compile Include="Jobs\Nach0QuarterBlockMakerJob.cs" />
-    <Compile Include="Jobs\Nach0SlabMakerJob.cs" />
-    <Compile Include="Jobs\Nach0StairMakerJob.cs" />
     <Compile Include="Models\Colliders.cs" />
     <Compile Include="Models\CSType.cs" />
     <Compile Include="Models\ICSRecipe.cs" />
     <Compile Include="Models\ICSType.cs" />
     <Compile Include="Models\OnRemove.cs" />
     <Compile Include="Types\GenerateTypeConfig.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\corner\raised.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\corner\standard.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\edge\raised.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\edge\standard.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\standard\raised.cs" />
-    <Compile Include="Types\GenerateTypes\quarterblocks\standard\standard.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\flipped\corners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\flipped\invertedcorners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\flipped\standard.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\standard\corners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\standard\invertedcorners.cs" />
-    <Compile Include="Types\GenerateTypes\ramps\standard\standard.cs" />
     <Compile Include="Types\GenerateTypes\slabs\standard.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\nontiled.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\flipped\standard\tiled.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\nontiled.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\non-flipped\standard\tiled.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
