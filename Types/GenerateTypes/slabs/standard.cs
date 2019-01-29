@@ -13,6 +13,7 @@ using Random = System.Random;
 using MoreDecorations.Models;
 using System.IO;
 using NACH0.Decor.GenerateTypes.Config;
+using UnityEngine;
 
 namespace Nach0.Decor.GenerateTypes.Slab
 {
@@ -39,18 +40,21 @@ namespace Nach0.Decor.GenerateTypes.Slab
     class Slab
     {
         public const string type = "Slab";
+        public const string generateTypesName = GenerateTypeConfig.generateRecipesPrefix + "." + type;
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AddItemTypes, type)]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AddItemTypes, generateTypesName)]
         public static void generateTypes(Dictionary<string, ItemTypeRaw> types)
         {
+            ServerLog.LogAsyncMessage(new LogMessage("Begining slab generation", LogType.Log));
             var i = 0;
             var file = File.ReadAllText(GenerateTypeConfig.modGamedataPath + "/DecorTypes.json");
             var dic = JsonConvert.DeserializeObject<Dictionary<string, List<string>>>(file);
 
-            ServerLog.print(GenerateTypeConfig.modGamedataPath + "/DecorTypes.json");
+            ServerLog.LogAsyncMessage(new LogMessage(GenerateTypeConfig.modGamedataPath + "/DecorTypes.json", LogType.Log));
 
             if (dic.TryGetValue("Slab", out List<string> slabTypes))
-                ServerLog.print("Found Slab in JSON");
+                //ServerLog.print("Found Slab in JSON");
+                ServerLog.LogAsyncMessage(new LogMessage("Found Slab in JSON", LogType.Log));
                 foreach (var currentType in slabTypes)
                 {
                     ServerLog.print(currentType);

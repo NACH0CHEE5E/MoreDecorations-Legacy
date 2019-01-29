@@ -5,22 +5,22 @@ namespace NACH0.Decor.GenerateTypes.Config
 {
     class GenerateTypeConfig
     {
-        public static string name = "NACH0";
-        public static string modName = "Decor";
-        public static string modNameSpace = name + "." + modName + ".";
+        public const string name = "NACH0";
+        public const string modName = "Decor";
+        public const string modNameSpace = name + "." + modName + ".";
 
-        public static string generateTypesPrefix = modNameSpace + "GenerateTypes.";
-        public static string generateRecipesPrefix = modNameSpace + "GenerateRecipes";
+        public const string generateTypesPrefix = modNameSpace + "GenerateTypes.";
+        public const string generateRecipesPrefix = modNameSpace + "GenerateRecipes";
 
-        public static string modFilePath = "./gamedata/mods/" + name + "/" + modName;
-        public static string modGamedataPath = modFilePath + "/gamedata";
-        public static string modMeshPath = modGamedataPath + "/meshes";
-        public static string modIconPath = modGamedataPath + "/textures/icons";
+        public const string modFilePath = "./gamedata/mods/" + name + "/" + modName;
+        public const string modGamedataPath = modFilePath + "/gamedata";
+        public const string modMeshPath = modGamedataPath + "/meshes";
+        public const string modIconPath = modGamedataPath + "/textures/icons";
 
-        public static string typePrefix = name + ".Types";
+        public const string typePrefix = name + ".Types";
 
-        public static string meshType = ".ply";
-        public static string iconType = ".png";
+        public const string meshType = ".ply";
+        public const string iconType = ".png";
     }
 
     public static class ExtentionMethods
