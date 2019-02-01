@@ -13,6 +13,7 @@ namespace MoreDecorations.Models
         List<string> categories { get; }
         Colliders colliders { get; }
         string color { get; }
+        [JsonIgnore]
         JSONNode customData { get; }
         int? destructionTime { get; }
         string icon { get; }

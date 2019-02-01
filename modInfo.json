@@ -1,0 +1,64 @@
+[
+  {
+    "name": "NACH0.Decor",
+    "version": "2.0.0",
+    "namepretty": "NACH0 Decor",
+    "enabled": true,
+    "marksgamemodded": true,
+    "dllpath": "Decor.dll",
+    "compatibleversions": [
+      "0.7.0"
+    ],
+    "jsonFiles": [
+ 
+    ],
+    "patchnotes": [
+      {
+        "version": "2.0.0",
+        "notes": [
+          "*To find out how to use the mod go to https://github.com/NACH0CHEE5E/NACH0Decor/wiki",
+          "Complete rewrite of the mod",
+          "More decor blocks will be added in the future join the discord to submit new ones",
+          "rename of mod to NACH0Decor",
+          "0.7.0 support",
+          "*If you find any issues or have suggestions join the discord",
+          "*discord.gg/tqFhxhm"
+        ]
+      },
+      {
+        "version": "1.1.0",
+        "notes": [
+          "Added slabs, stairs, quarterblocks (in three varieties). For all block textures there is also a purchasable lumberarea block in the shop.",
+          "makers can be found in the workbench",
+          "*If you find any issues or have suggestions join the discord",
+          "*discord.gg/tqFhxhm"
+        ]
+      },
+      {
+        "version": "1.0.1",
+        "notes": [
+          "Thanks to Lordis3D for help with the meshes making them look nicer",
+          "fixed an issue with using morenutrition and moredecorations",
+          "*If you find any issues or have suggestions join the discord",
+          "*discord.gg/tqFhxhm"
+        ]
+      },
+      {
+        "version": "0.1.0",
+        "notes": [
+          "all slabs exept for the coloured blocks are done",
+          "*If you find any issues or have suggestions join the discord",
+          "*discord.gg/tqFhxhm"
+        ]
+      },
+      {
+        "version": "0.0.1",
+        "notes": [
+          "Initial Release",
+          "*If you find any issues or have suggestions join the discord",
+          "*discord.gg/tqFhxhm"
+        ]
+      }
+    ]
+  }
+]
