@@ -27,6 +27,7 @@ namespace MoreDecorations.Models
         public virtual string onRemoveAudio { get; set; }
         public virtual string onPlaceAudio { get; set; }
         public virtual int? destructionTime { get; }
+        [JsonIgnore]
         public virtual JSONNode customData { get; set; }
         public virtual string parentType { get; set; }
         [JsonProperty("rotatablex+")]
