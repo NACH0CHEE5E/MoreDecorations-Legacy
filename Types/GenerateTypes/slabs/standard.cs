@@ -14,6 +14,7 @@ using MoreDecorations.Models;
 using System.IO;
 using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
+using Decor.Models;
 
 namespace Nach0.Decor.GenerateTypes.Slab
 {
@@ -81,27 +82,31 @@ namespace Nach0.Decor.GenerateTypes.Slab
         public string Job { get; set; } = "pipliz.crafter";
     }
 
+
+
     [ModLoader.ModManager]
     public class Slab
     {
         public const string NAME = "Slab";
-        public const string GENERATE_TYPES_NAME = GenerateTypeConfig.GENERATE_RECIPES_PREFIX + "." + NAME;
+        public const string GENERATE_TYPES_NAME = GenerateTypeConfig.GENERATE_TYPES_PREFIX + NAME;
+        public const string GENERATE_RECIPES_NAME = GenerateTypeConfig.GENERATE_RECIPES_PREFIX + NAME;
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AddItemTypes, GENERATE_TYPES_NAME)]
         public static void generateTypes(Dictionary<string, ItemTypeRaw> types)
         {
-            ServerLog.LogAsyncMessage(new LogMessage("Begining slab generation", LogType.Log));
+            ServerLog.LogAsyncMessage(new LogMessage("Begining" + NAME + "generation", LogType.Log));
 
-            if (GenerateTypeConfig.DecorTypes.TryGetValue("Slab", out List<string> slabTypes))
-                foreach (var currentType in slabTypes)
+            if (GenerateTypeConfig.DecorTypes.TryGetValue(NAME, out List<DecorType> blockTypes))
+                foreach (var currentType in blockTypes)
                 {
-                    ServerLog.print(currentType);
-                    var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType;
+                    ServerLog.LogAsyncMessage(new LogMessage("Found parent" + currentType.type, LogType.Log));
+                    ServerLog.LogAsyncMessage(new LogMessage("Found texture" + currentType.texture, LogType.Log));
+                    var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
                     var typeNameUp = typeName + ".up";
                     var typeNameDown = typeName + ".down";
 
                     var baseType = new SlabParent();
-                    baseType.categories.Add(currentType);
+                    baseType.categories.Add(currentType.texture);
                     baseType.name = typeName;
                     baseType.rotatablexn = typeNameUp;
                     baseType.rotatablexp = typeNameUp;
@@ -123,16 +128,17 @@ namespace Nach0.Decor.GenerateTypes.Slab
                 }
         }
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, GENERATE_TYPES_NAME + ".Recipies")]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, GENERATE_RECIPES_NAME)]
         public static void generateRecipes()
         {
-            if (GenerateTypeConfig.DecorTypes.TryGetValue("Slab", out List<string> slabTypes))
-                foreach (var currentType in slabTypes)
+            if (GenerateTypeConfig.DecorTypes.TryGetValue("Slab", out List<DecorType> blockTypes))
+                foreach (var currentType in blockTypes)
                 {
-                    var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType;
-                    var typeNameRecipe = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType + ".Recipe";
+                    var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
+                    var typeNameRecipe = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type + ".Recipe";
                     var recipe = new SlabRecipe();
                     recipe.name = typeNameRecipe;
+                    recipe.requires.Add(new RecipeItem(currentType.type));
                     recipe.results.Add(new RecipeItem(typeName));
 
 

@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using Decor.Models;
 
 namespace NACH0.Decor.GenerateTypes.Config
 {
@@ -17,8 +18,8 @@ namespace NACH0.Decor.GenerateTypes.Config
         public const string MODNAME = "Decor";
         public const string MODNAMESPACE = NAME + "." + MODNAME + ".";
 
-        public const string GENERATETYPESPREFIX = MODNAMESPACE + "GenerateTypes.";
-        public const string GENERATE_RECIPES_PREFIX = MODNAMESPACE + "GenerateRecipes";
+        public const string GENERATE_TYPES_PREFIX = MODNAMESPACE + "GenerateTypes.";
+        public const string GENERATE_RECIPES_PREFIX = MODNAMESPACE + "GenerateRecipes.";
 
         public static string GAMEDATA_FOLDER = @"";
         public static string GAME_ROOT = @"";
@@ -31,7 +32,7 @@ namespace NACH0.Decor.GenerateTypes.Config
         public const string MESHTYPE = ".ply";
         public const string ICONTYPE = ".png";
 
-        public static Dictionary<string, List<string>> DecorTypes { get; private set; }
+        public static Dictionary<string, List<DecorType>> DecorTypes { get; private set; }
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.OnAssemblyLoaded, MODNAMESPACE + ".OnAssemblyLoaded")]
         public static void OnAssemblyLoaded(string path)
@@ -45,7 +46,7 @@ namespace NACH0.Decor.GenerateTypes.Config
             MOD_ICON_PATH = MOD_FOLDER + "textures/icons/";
 
             var file = File.ReadAllText(MOD_FOLDER + "DecorTypes.json");
-            DecorTypes = JsonConvert.DeserializeObject<Dictionary<string, List<string>>>(file);
+            DecorTypes = JsonConvert.DeserializeObject<Dictionary<string, List<DecorType>>>(file);
 
             AppDomain.CurrentDomain.AssemblyResolve += CurrentDomain_AssemblyResolve;
         }

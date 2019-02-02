@@ -96,6 +96,7 @@
   <ItemGroup>
     <Compile Include="Models\Colliders.cs" />
     <Compile Include="Models\CSType.cs" />
+    <Compile Include="Models\DecorTypes.cs" />
     <Compile Include="Models\ICSRecipe.cs" />
     <Compile Include="Models\ICSType.cs" />
     <Compile Include="Models\OnRemove.cs" />
