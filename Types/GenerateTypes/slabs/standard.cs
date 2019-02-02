@@ -16,16 +16,21 @@ using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
 
-namespace Nach0.Decor.GenerateTypes.Slab
+namespace Nach0.Decor.GenerateTypes
 {
+    public class LocalGenerateConfig
+    {
+        public const string NAME = "Slab";
+    }
+
     public class SlabParent : CSType
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
-            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, "Slab", "b"
+            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.NAME, "b"
         };
 
-        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Slab.NAME + ".up" + GenerateTypeConfig.MESHTYPE;
+        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + LocalGenerateConfig.NAME + ".up" + GenerateTypeConfig.MESHTYPE;
         public override int? maxStackSize => 500;
         public override bool? isPlaceable => true;
         public override bool? needsBase => false;
@@ -87,20 +92,20 @@ namespace Nach0.Decor.GenerateTypes.Slab
     [ModLoader.ModManager]
     public class Slab
     {
-        public const string NAME = "Slab";
+        public const string NAME = LocalGenerateConfig.NAME;
         public const string GENERATE_TYPES_NAME = GenerateTypeConfig.GENERATE_TYPES_PREFIX + NAME;
         public const string GENERATE_RECIPES_NAME = GenerateTypeConfig.GENERATE_RECIPES_PREFIX + NAME;
 
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AddItemTypes, GENERATE_TYPES_NAME)]
         public static void generateTypes(Dictionary<string, ItemTypeRaw> types)
         {
-            ServerLog.LogAsyncMessage(new LogMessage("Begining" + NAME + "generation", LogType.Log));
+            ServerLog.LogAsyncMessage(new LogMessage("Begining " + NAME + " generation", LogType.Log));
 
             if (GenerateTypeConfig.DecorTypes.TryGetValue(NAME, out List<DecorType> blockTypes))
                 foreach (var currentType in blockTypes)
                 {
-                    ServerLog.LogAsyncMessage(new LogMessage("Found parent" + currentType.type, LogType.Log));
-                    ServerLog.LogAsyncMessage(new LogMessage("Found texture" + currentType.texture, LogType.Log));
+                    ServerLog.LogAsyncMessage(new LogMessage("Found parent " + currentType.type, LogType.Log));
+                    ServerLog.LogAsyncMessage(new LogMessage("Found texture " + currentType.texture, LogType.Log));
                     var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
                     var typeNameUp = typeName + ".up";
                     var typeNameDown = typeName + ".down";
@@ -108,6 +113,7 @@ namespace Nach0.Decor.GenerateTypes.Slab
                     var baseType = new SlabParent();
                     baseType.categories.Add(currentType.texture);
                     baseType.name = typeName;
+                    baseType.sideall = currentType.texture;
                     baseType.rotatablexn = typeNameUp;
                     baseType.rotatablexp = typeNameUp;
                     baseType.rotatablezn = typeNameDown;
@@ -131,20 +137,27 @@ namespace Nach0.Decor.GenerateTypes.Slab
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, GENERATE_RECIPES_NAME)]
         public static void generateRecipes()
         {
-            if (GenerateTypeConfig.DecorTypes.TryGetValue("Slab", out List<DecorType> blockTypes))
+            if (GenerateTypeConfig.DecorTypes.TryGetValue(LocalGenerateConfig.NAME, out List<DecorType> blockTypes))
                 foreach (var currentType in blockTypes)
                 {
-                    var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
-                    var typeNameRecipe = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type + ".Recipe";
-                    var recipe = new SlabRecipe();
-                    recipe.name = typeNameRecipe;
-                    recipe.requires.Add(new RecipeItem(currentType.type));
-                    recipe.results.Add(new RecipeItem(typeName));
+                    try
+                    {
+                        var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
+                        var typeNameRecipe = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type + ".Recipe";
+                        var recipe = new SlabRecipe();
+                        recipe.name = typeNameRecipe;
+                        recipe.requires.Add(new RecipeItem(currentType.type));
+                        recipe.results.Add(new RecipeItem(typeName));
 
 
-                    recipe.LoadRecipe();
+                        recipe.LoadRecipe();
+                    }
+                    catch (Exception ex)
+                    {
+                        ServerLog.LogAsyncMessage(new LogMessage(ex.Message, UnityEngine.LogType.Exception));
+                        ServerLog.LogAsyncMessage(new LogMessage(ex.StackTrace, UnityEngine.LogType.Exception));
+                    }
                 }
-            
         }
     }
 }

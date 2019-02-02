@@ -42,7 +42,7 @@ namespace NACH0.Decor.GenerateTypes.Config
             GAME_ROOT = path.Substring(0, path.IndexOf("gamedata")).Replace("\\", "/") + "/";
             GAMEDATA_FOLDER = path.Substring(0, path.IndexOf("gamedata") + "gamedata".Length).Replace("\\", "/") + "/";
 
-            MOD_MESH_PATH = MOD_FOLDER + "meshes/";
+            MOD_MESH_PATH = MOD_FOLDER + "gamedata/meshes/";
             MOD_ICON_PATH = MOD_FOLDER + "textures/icons/";
 
             var file = File.ReadAllText(MOD_FOLDER + "DecorTypes.json");
