@@ -106,7 +106,7 @@
     <Compile Include="Types\GenerateTypeConfig.cs" />
     <Compile Include="Types\GenerateTypes\slabs\standard.cs" />
     <Compile Include="Types\GenerateTypes\slabs\vertical.cs" />
-    <Compile Include="Types\GenerateTypes\stairs\standard\standard.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\standard\standard2.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
