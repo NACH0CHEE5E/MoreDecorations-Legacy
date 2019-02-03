@@ -13,7 +13,7 @@ namespace MoreDecorations.Models
     {
         public virtual string typeName { get; set; }
         public virtual string generateType { get; set; }
-        public virtual baseType baseType { get; set; }
+        public virtual ICSNACH0Type baseType { get; set; }
 
 
 

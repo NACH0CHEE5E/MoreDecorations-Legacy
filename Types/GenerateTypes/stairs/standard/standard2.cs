@@ -26,7 +26,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
     public class TypeSpecs : CSGenerateType
     {
         public override string generateType { get => base.generateType; set => base.generateType = "rotateBlock"; }
-        public override baseType baseType { get; set; } = new baseType()
+        public override ICSNACH0Type baseType { get; set; } = new baseType()
         {
             public override List<string> categories { get; set; } = new List<string>()
             {

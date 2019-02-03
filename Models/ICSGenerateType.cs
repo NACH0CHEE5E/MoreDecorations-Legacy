@@ -10,7 +10,7 @@ namespace MoreDecorations.Models
     {
         string typeName { get; }
         string generateType { get; }
-        baseType baseType { get; }
+        ICSNACH0Type baseType { get; }
 
 
         /*bool? blocksPathing { get; }
