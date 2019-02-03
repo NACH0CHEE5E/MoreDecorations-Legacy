@@ -94,15 +94,21 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\baseType.cs" />
     <Compile Include="Models\Colliders.cs" />
+    <Compile Include="Models\CSGenerateType.cs" />
     <Compile Include="Models\CSType.cs" />
     <Compile Include="Models\DecorTypes.cs" />
     <Compile Include="Models\ICSRecipe.cs" />
+    <Compile Include="Models\ICSGenerateType.cs" />
     <Compile Include="Models\ICSType.cs" />
     <Compile Include="Models\OnRemove.cs" />
     <Compile Include="Types\GenerateTypeConfig.cs" />
     <Compile Include="Types\GenerateTypes\slabs\standard.cs" />
+    <Compile Include="Types\GenerateTypes\slabs\vertical.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\standard\standard.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />

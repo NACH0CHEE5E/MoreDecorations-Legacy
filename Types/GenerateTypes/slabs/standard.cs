@@ -16,26 +16,30 @@ using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
 
-namespace Nach0.Decor.GenerateTypes
+namespace Nach0.Decor.GenerateTypes.Slab
 {
     public class LocalGenerateConfig
     {
         public const string NAME = "Slab";
     }
 
-    public class SlabParent : CSType
+    public class TypeParent : CSType
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
             GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.NAME, "b"
         };
 
-        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + LocalGenerateConfig.NAME + ".up" + GenerateTypeConfig.MESHTYPE;
         public override int? maxStackSize => 500;
         public override bool? isPlaceable => true;
         public override bool? needsBase => false;
         public override bool? isRotatable => true;
         public override JSONNode customData { get; set; } = new JSONNode().SetAs("useNormalMap", true).SetAs("useHeightMap", true);
+    }
+
+    public class TypeUp : CSType
+    {
+        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Type.NAME + ".up" + GenerateTypeConfig.MESHTYPE;
         public override Colliders colliders { get; set; } = new Colliders()
         {
             boxes = new List<Colliders.Boxes>()
@@ -45,21 +49,9 @@ namespace Nach0.Decor.GenerateTypes
         };
     }
 
-    public class SlabUp : CSType
+    public class TypeDown : CSType
     {
-        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Slab.NAME + ".up" + GenerateTypeConfig.MESHTYPE;
-        public override Colliders colliders { get; set; } = new Colliders()
-        {
-            boxes = new List<Colliders.Boxes>()
-            {
-                new Colliders.Boxes(new List<float>(){ -0.5f, 0f, -0.5f }, new List<float>(){ 0.5f, 0.5f, 0.5f })
-            }
-        };
-    }
-
-    public class SlabDown : CSType
-    {
-        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Slab.NAME + ".down" + GenerateTypeConfig.MESHTYPE;
+        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Type.NAME + ".down" + GenerateTypeConfig.MESHTYPE;
         public override Colliders colliders { get; set; } = new Colliders()
         {
             boxes = new List<Colliders.Boxes>()
@@ -70,9 +62,9 @@ namespace Nach0.Decor.GenerateTypes
 
     }
 
-    public class SlabRecipe : ICSRecipe
+    public class TypeRecipe : ICSRecipe
     {
-        public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Slab.NAME;
+        public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Type.NAME;
 
         public List<RecipeItem> requires { get; set; } = new List<RecipeItem>();
 
@@ -84,13 +76,13 @@ namespace Nach0.Decor.GenerateTypes
 
         public int defaultLimit { get; set; } = 0;
 
-        public string Job { get; set; } = "pipliz.crafter";
+        public string Job { get; set; } = GenerateTypeConfig.NAME + ".Jobs." + LocalGenerateConfig.NAME + "Maker";
     }
 
 
 
     [ModLoader.ModManager]
-    public class Slab
+    public class Type
     {
         public const string NAME = LocalGenerateConfig.NAME;
         public const string GENERATE_TYPES_NAME = GenerateTypeConfig.GENERATE_TYPES_PREFIX + NAME;
@@ -99,19 +91,21 @@ namespace Nach0.Decor.GenerateTypes
         [ModLoader.ModCallback(ModLoader.EModCallbackType.AddItemTypes, GENERATE_TYPES_NAME)]
         public static void generateTypes(Dictionary<string, ItemTypeRaw> types)
         {
-            ServerLog.LogAsyncMessage(new LogMessage("Begining " + NAME + " generation", LogType.Log));
+            ServerLog.LogAsyncMessage(new LogMessage("Begining " + NAME + " type generation", LogType.Log));
 
             if (GenerateTypeConfig.DecorTypes.TryGetValue(NAME, out List<DecorType> blockTypes))
                 foreach (var currentType in blockTypes)
                 {
-                    ServerLog.LogAsyncMessage(new LogMessage("Found parent " + currentType.type, LogType.Log));
-                    ServerLog.LogAsyncMessage(new LogMessage("Found texture " + currentType.texture, LogType.Log));
+                    //ServerLog.LogAsyncMessage(new LogMessage("Found parent " + currentType.type, LogType.Log));
+                    //ServerLog.LogAsyncMessage(new LogMessage("Found texture " + currentType.texture, LogType.Log));
                     var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
                     var typeNameUp = typeName + ".up";
                     var typeNameDown = typeName + ".down";
 
-                    var baseType = new SlabParent();
-                    baseType.categories.Add(currentType.texture);
+                    ServerLog.LogAsyncMessage(new LogMessage("Generating type " + typeName, LogType.Log));
+
+                    var baseType = new TypeParent();
+                    baseType.categories.Add(currentType.type);
                     baseType.name = typeName;
                     baseType.sideall = currentType.texture;
                     baseType.rotatablexn = typeNameUp;
@@ -119,44 +113,41 @@ namespace Nach0.Decor.GenerateTypes
                     baseType.rotatablezn = typeNameDown;
                     baseType.rotatablezp = typeNameDown;
 
-                    var slabUp = new SlabUp();
-                    slabUp.name = typeNameUp;
-                    slabUp.parentType = typeName;
+                    var typeUp = new TypeUp();
+                    typeUp.name = typeNameUp;
+                    typeUp.parentType = typeName;
 
-                    var slabDown = new SlabDown();
-                    slabDown.name = typeNameDown;
-                    slabDown.parentType = typeName;
+                    var typeDown = new TypeDown();
+                    typeDown.name = typeNameDown;
+                    typeDown.parentType = typeName;
 
 
                     types.Add(typeName, new ItemTypeRaw(typeName, baseType.JsonSerialize()));
-                    types.Add(typeNameUp, new ItemTypeRaw(typeNameUp, slabUp.JsonSerialize()));
-                    types.Add(typeNameDown, new ItemTypeRaw(typeNameDown, slabDown.JsonSerialize()));
+                    types.Add(typeNameUp, new ItemTypeRaw(typeNameUp, typeUp.JsonSerialize()));
+                    types.Add(typeNameDown, new ItemTypeRaw(typeNameDown, typeDown.JsonSerialize()));
                 }
         }
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, GENERATE_RECIPES_NAME)]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterWorldLoad, GENERATE_RECIPES_NAME)]
         public static void generateRecipes()
         {
+            ServerLog.LogAsyncMessage(new LogMessage("Begining " + NAME + " recipe generation", LogType.Log));
+
             if (GenerateTypeConfig.DecorTypes.TryGetValue(LocalGenerateConfig.NAME, out List<DecorType> blockTypes))
                 foreach (var currentType in blockTypes)
                 {
-                    try
-                    {
-                        var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
-                        var typeNameRecipe = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type + ".Recipe";
-                        var recipe = new SlabRecipe();
-                        recipe.name = typeNameRecipe;
-                        recipe.requires.Add(new RecipeItem(currentType.type));
-                        recipe.results.Add(new RecipeItem(typeName));
+                    var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
+                    var typeNameRecipe = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type + ".Recipe";
+
+                    ServerLog.LogAsyncMessage(new LogMessage("Generating recipe " + typeNameRecipe, LogType.Log));
+
+                    var recipe = new TypeRecipe();
+                    recipe.name = typeNameRecipe;
+                    recipe.requires.Add(new RecipeItem(currentType.type));
+                    recipe.results.Add(new RecipeItem(typeName));
 
 
-                        recipe.LoadRecipe();
-                    }
-                    catch (Exception ex)
-                    {
-                        ServerLog.LogAsyncMessage(new LogMessage(ex.Message, UnityEngine.LogType.Exception));
-                        ServerLog.LogAsyncMessage(new LogMessage(ex.StackTrace, UnityEngine.LogType.Exception));
-                    }
+                    recipe.LoadRecipe();
                 }
         }
     }

@@ -27,7 +27,7 @@ namespace NACH0.Decor.GenerateTypes.Config
         public static string MOD_MESH_PATH = "./meshes";
         public static string MOD_ICON_PATH = "./textures/icons";
 
-        public const string TYPEPREFIX = NAME + ".Types";
+        public const string TYPEPREFIX = NAME + ".Types.";
 
         public const string MESHTYPE = ".ply";
         public const string ICONTYPE = ".png";
@@ -86,7 +86,7 @@ namespace NACH0.Decor.GenerateTypes.Config
             ServerLog.LogAsyncMessage(new LogMessage(objStr, UnityEngine.LogType.Log));
             var json = JSON.DeserializeString(objStr);
 
-            if (obj is ICSType csType)
+            if (obj is NACH0ICSType csType)
                 json.SetAs("customData", csType.customData);
 
             return json;

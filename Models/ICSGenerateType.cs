@@ -6,10 +6,14 @@ using UnityEngine;
 
 namespace MoreDecorations.Models
 {
-    public interface NACH0ICSType
+    public interface NACH0ICSGenerateType
     {
-        string name { get; }
-        bool? blocksPathing { get; }
+        string typeName { get; }
+        string generateType { get; }
+        baseType baseType { get; }
+
+
+        /*bool? blocksPathing { get; }
         List<string> categories { get; }
         Colliders colliders { get; }
         string color { get; }
@@ -55,6 +59,6 @@ namespace MoreDecorations.Models
         [JsonProperty("sidez-")]
         string sidezn { get; }
         [JsonProperty("sidez+")]
-        string sidezp { get; }
+        string sidezp { get; }*/
     }
 }

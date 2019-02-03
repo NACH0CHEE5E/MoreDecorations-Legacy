@@ -9,9 +9,15 @@ using UnityEngine;
 
 namespace MoreDecorations.Models
 {
-    public class CSType : NACH0ICSType
+    public class CSGenerateType : NACH0ICSGenerateType
     {
-        public virtual string name { get; set; }
+        public virtual string typeName { get; set; }
+        public virtual string generateType { get; set; }
+        public virtual baseType baseType { get; set; }
+
+
+
+        /*public virtual string name { get; set; }
         public virtual bool? isDestructible { get; }
         public virtual bool? isRotatable { get; }
         public virtual bool? isSolid { get; }
@@ -58,6 +64,6 @@ namespace MoreDecorations.Models
         public virtual List<OnRemove> onRemove { get; set; } = new List<OnRemove>();
         public virtual bool? blocksPathing => isSolid;
         public virtual Colliders colliders { get; set; }
-        public virtual List<string> categories { get; set; } = new List<string>();
+        public virtual List<string> categories { get; set; } = new List<string>();*/
     }
 }

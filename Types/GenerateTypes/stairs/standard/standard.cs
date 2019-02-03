@@ -16,11 +16,11 @@ using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
 
-namespace Nach0.Decor.GenerateTypes.VerticalSlab
+namespace Nach0.Decor.GenerateTypes.Stairs
 {
     public class LocalGenerateConfig
     {
-        public const string NAME = "VerticalSlab";
+        public const string NAME = "Stairs";
     }
 
     public class TypeParent : CSType
@@ -44,7 +44,10 @@ namespace Nach0.Decor.GenerateTypes.VerticalSlab
         {
             boxes = new List<Colliders.Boxes>()
             {
-                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0f, -0.5f, -0.5f })
+                new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.25f, -0.25f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.25f, 0.25f, -0.5f })
             }
         };
     }
@@ -56,7 +59,10 @@ namespace Nach0.Decor.GenerateTypes.VerticalSlab
         {
             boxes = new List<Colliders.Boxes>()
             {
-                new Colliders.Boxes(new List<float>(){ 0f, 0.5f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f })
+                new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.25f, 0f, 0.5f }, new List<float>(){ -0.5f, -0.25f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0f, 0.25f, 0.5f }, new List<float>(){ -0.5f, 0f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ -0.25f, 0.5f, 0.5f }, new List<float>(){ -0.5f, 0.25f, -0.5f })
             }
         };
 
@@ -69,7 +75,10 @@ namespace Nach0.Decor.GenerateTypes.VerticalSlab
         {
             boxes = new List<Colliders.Boxes>()
             {
-                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ -0.5f, -0.5f, 0f })
+                new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.25f, -0.25f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.25f, 0.25f, -0.5f })
             }
         };
 
@@ -82,7 +91,10 @@ namespace Nach0.Decor.GenerateTypes.VerticalSlab
         {
             boxes = new List<Colliders.Boxes>()
             {
-                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0f }, new List<float>(){ -0.5f, -0.5f, -0.5f })
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.25f, -0.25f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.25f, 0.25f, -0.5f })
             }
         };
 
