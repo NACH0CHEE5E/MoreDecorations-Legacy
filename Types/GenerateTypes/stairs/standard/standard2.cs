@@ -23,7 +23,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
         public const string NAME = "Stairs";
     }
 
-    public class Type : CSGenerateType
+    public class TypeSpecs : CSGenerateType
     {
         public override string generateType { get => base.generateType; set => base.generateType = "rotateBlock"; }
         public override baseType baseType { get; set; } = new baseType()
@@ -114,8 +114,8 @@ namespace Nach0.Decor.GenerateTypes.Stairs
 
     }*/
 
-    public class TypeRecipe : ICSRecipe
-    {
+    public class TypeRecipe : ICSNACH0Recipe
+{
         public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Type.NAME;
 
         public List<RecipeItem> requires { get; set; } = new List<RecipeItem>();
@@ -154,8 +154,8 @@ namespace Nach0.Decor.GenerateTypes.Stairs
 
                     ServerLog.LogAsyncMessage(new LogMessage("Generating type " + typeName, LogType.Log));
 
-                    var baseType = new TypeParent();
-                    baseType.categories.Add(currentType.type);
+                    /*var generationType = new TypeSpecs();
+                    generationType.categories.Add(currentType.type);
                     baseType.name = typeName;
                     baseType.sideall = currentType.texture;
                     baseType.rotatablexn = typeName + "x+";
@@ -177,14 +177,14 @@ namespace Nach0.Decor.GenerateTypes.Stairs
 
                     var typeZM = new TypeXM();
                     typeZM.name = typeName + "z-";
-                    typeZM.parentType = typeName;
+                    typeZM.parentType = typeName;*/
 
 
-                    types.Add(typeName, new ItemTypeRaw(typeName, baseType.JsonSerialize()));
+                    /*types.Add(typeName, new ItemTypeRaw(typeName, baseType.JsonSerialize()));
                     types.Add(typeName + "x+", new ItemTypeRaw(typeName + "x+", typeXP.JsonSerialize()));
                     types.Add(typeName + "x-", new ItemTypeRaw(typeName + "x-", typeXM.JsonSerialize()));
                     types.Add(typeName + "z+", new ItemTypeRaw(typeName + "z+", typeZP.JsonSerialize()));
-                    types.Add(typeName + "z-", new ItemTypeRaw(typeName + "z-", typeZM.JsonSerialize()));
+                    types.Add(typeName + "z-", new ItemTypeRaw(typeName + "z-", typeZM.JsonSerialize()));*/
                 }
         }
 

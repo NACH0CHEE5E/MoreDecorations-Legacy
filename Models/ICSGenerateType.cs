@@ -6,11 +6,11 @@ using UnityEngine;
 
 namespace MoreDecorations.Models
 {
-    public interface NACH0ICSGenerateType
+    public interface ICSNACH0GenerateType
     {
         string typeName { get; }
         string generateType { get; }
-        NACH0ICSType baseType { get; }
+        baseType baseType { get; }
 
 
         /*bool? blocksPathing { get; }

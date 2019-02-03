@@ -9,11 +9,11 @@ using UnityEngine;
 
 namespace MoreDecorations.Models
 {
-    public class CSGenerateType : NACH0ICSGenerateType
+    public class CSGenerateType : ICSNACH0GenerateType
     {
         public virtual string typeName { get; set; }
         public virtual string generateType { get; set; }
-        public virtual NACH0ICSType baseType { get; set; }
+        public virtual baseType baseType { get; set; }
 
 
 

@@ -62,7 +62,7 @@ namespace Nach0.Decor.GenerateTypes.Slab
 
     }
 
-    public class TypeRecipe : ICSRecipe
+    public class TypeRecipe : ICSNACH0Recipe
     {
         public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Type.NAME;
 

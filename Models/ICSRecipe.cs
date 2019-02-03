@@ -31,7 +31,7 @@ namespace MoreDecorations.Models
         public int amount { get; set; }
     }
 
-    public interface ICSRecipe
+    public interface ICSNACH0Recipe
     {
         string name { get; }
         List<RecipeItem> requires { get; }

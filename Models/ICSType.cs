@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace MoreDecorations.Models
 {
-    public interface NACH0ICSType
+    public interface ICSNACH0Type
     {
         string name { get; }
         bool? blocksPathing { get; }

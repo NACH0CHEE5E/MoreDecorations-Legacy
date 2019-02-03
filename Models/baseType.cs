@@ -15,6 +15,7 @@ namespace MoreDecorations.Models
 {
     public class baseType
     {
+        //ICSNACH0Type ICSType { get; set; }
         public string icon { get; set; }
         public bool isSolid { get; set; }
         public int maxStackSize { get; set; }
