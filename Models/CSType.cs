@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace MoreDecorations.Models
 {
-    public class CSType : NACH0ICSType
+    public class CSType : ICSNACH0Type
     {
         public virtual string name { get; set; }
         public virtual bool? isDestructible { get; }
