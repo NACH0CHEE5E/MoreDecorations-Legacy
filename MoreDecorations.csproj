@@ -94,7 +94,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\baseType.cs" />
     <Compile Include="Models\Colliders.cs" />
     <Compile Include="Models\CSGenerateType.cs" />
     <Compile Include="Models\CSType.cs" />
