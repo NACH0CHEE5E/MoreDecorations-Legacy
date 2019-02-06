@@ -84,6 +84,10 @@ namespace NACH0.Decor.GenerateTypes.Config
         {
             var objStr = JsonConvert.SerializeObject(obj, Formatting.None, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
             ServerLog.LogAsyncMessage(new LogMessage(objStr, UnityEngine.LogType.Log));
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt")))
+            {
+                outputFile.WriteLine(objStr);
+            }
             var json = JSON.DeserializeString(objStr);
 
             if (obj is ICSNACH0Type csType)
