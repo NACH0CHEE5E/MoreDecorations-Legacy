@@ -23,7 +23,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
         public const string NAME = "Stairs";
     }
 
-    public class StairsType : CSType
+    public class TypeBase : CSType
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
@@ -50,7 +50,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
     public class TypeSpecs : CSGenerateType
     {
         public override string generateType { get; set; } = "rotateBlock";
-        public override ICSNACH0Type baseType { get; set; } = new StairsType();
+        public override ICSNACH0Type baseType { get; set; } = new TypeBase();
         public override string typeName { get; set; }
     }
 
