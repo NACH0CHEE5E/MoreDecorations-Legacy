@@ -86,7 +86,7 @@ namespace NACH0.Decor.GenerateTypes.Config
             ServerLog.LogAsyncMessage(new LogMessage(objStr, UnityEngine.LogType.Log));
             var json = JSON.DeserializeString(objStr);
 
-            if (obj is NACH0ICSType csType)
+            if (obj is ICSNACH0Type csType)
                 json.SetAs("customData", csType.customData);
 
             return json;
@@ -97,7 +97,7 @@ namespace NACH0.Decor.GenerateTypes.Config
             return JsonConvert.DeserializeObject<T>(node.ToString(), new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
         }
 
-        public static void LoadRecipe(this ICSRecipe recipe)
+        public static void LoadRecipe(this ICSNACH0Recipe recipe)
         {
             var requirements = new List<InventoryItem>();
             var results = new List<ItemTypes.ItemTypeDrops>();
