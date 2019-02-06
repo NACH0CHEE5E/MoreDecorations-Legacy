@@ -81,8 +81,8 @@ namespace Nach0.Decor.GenerateTypes.Stairs
         public const string GENERATE_TYPES_NAME = GenerateTypeConfig.GENERATE_TYPES_PREFIX + NAME;
         public const string GENERATE_RECIPES_NAME = GenerateTypeConfig.GENERATE_RECIPES_PREFIX + NAME;
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AddItemTypes, GENERATE_TYPES_NAME)]
-        public static void generateTypes(Dictionary<string, ItemTypeRaw> types)
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterSelectedWorld, GENERATE_TYPES_NAME)]
+        public static void generateTypes()
         {
             ServerLog.LogAsyncMessage(new LogMessage("Begining " + NAME + " generation", LogType.Log));
 
@@ -95,42 +95,13 @@ namespace Nach0.Decor.GenerateTypes.Stairs
 
                     ServerLog.LogAsyncMessage(new LogMessage("Generating type " + typeName, LogType.Log));
 
-                    var Types = new TypeSpecs();
-                    Types.baseType.categories.Add(currentType.type);
-                    Types.typeName = typeName;
-                    Types.baseType.sideall = currentType.texture;
+                    var Typesbase = new TypeSpecs();
+                    Typesbase.baseType.categories.Add(currentType.type);
+                    Typesbase.typeName = typeName;
+                    Typesbase.baseType.sideall = currentType.texture;
 
-                    /*var generationType = new TypeSpecs();
-                    generationType.categories.Add(currentType.type);
-                    baseType.name = typeName;
-                    baseType.sideall = currentType.texture;
-                    baseType.rotatablexn = typeName + "x+";
-                    baseType.rotatablexp = typeName + "x-";
-                    baseType.rotatablezn = typeName + "z+";
-                    baseType.rotatablezp = typeName + "z-";
 
-                    var typeXP = new TypeXP();
-                    typeXP.name = typeName + "x+";
-                    typeXP.parentType = typeName;
-
-                    var typeXM = new TypeXM();
-                    typeXM.name = typeName + "x-";
-                    typeXM.parentType = typeName;
-
-                    var typeZP = new TypeXM();
-                    typeZP.name = typeName + "z+";
-                    typeZP.parentType = typeName;
-
-                    var typeZM = new TypeXM();
-                    typeZM.name = typeName + "z-";
-                    typeZM.parentType = typeName;*/
-
-                    types.Add(typeName, new ItemTypeRaw(typeName, Types.JsonSerialize()));
-                    /*types.Add(typeName, new ItemTypeRaw(typeName, baseType.JsonSerialize()));
-                    types.Add(typeName + "x+", new ItemTypeRaw(typeName + "x+", typeXP.JsonSerialize()));
-                    types.Add(typeName + "x-", new ItemTypeRaw(typeName + "x-", typeXM.JsonSerialize()));
-                    types.Add(typeName + "z+", new ItemTypeRaw(typeName + "z+", typeZP.JsonSerialize()));
-                    types.Add(typeName + "z-", new ItemTypeRaw(typeName + "z-", typeZM.JsonSerialize()));*/
+                    ItemTypesServer.BlockRotator.Patches.AddPatch(new ItemTypesServer.BlockRotator.BlockGeneratePatch(GenerateTypeConfig.MOD_FOLDER, -99999, Typesbase.JsonSerialize()));
                 }
         }
 
