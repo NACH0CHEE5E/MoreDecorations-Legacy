@@ -23,32 +23,35 @@ namespace Nach0.Decor.GenerateTypes.Stairs
         public const string NAME = "Stairs";
     }
 
-    public class TypeSpecs : CSGenerateType
+    public class StairsType : CSType
     {
-        public override string generateType { get => base.generateType; set => base.generateType = "rotateBlock"; }
-        public override ICSNACH0Type baseType { get; set; } = new baseType()
-        {
-            public override List<string> categories { get; set; } = new List<string>()
+        public override List<string> categories { get; set; } = new List<string>()
             {
                 GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.NAME, "b"
             };
-            public override Colliders colliders { get; set; } = new Colliders()
-            {
-                boxes = new List<Colliders.Boxes>()
+        public override Colliders colliders { get; set; } = new Colliders()
+        {
+            boxes = new List<Colliders.Boxes>()
                 {
                     new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
                     new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.25f, -0.25f, -0.5f }),
                     new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
                     new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.25f, 0.25f, -0.5f })
                 }
-            };
-            public override int? maxStackSize => 500;
-            public override bool? isPlaceable => true;
-            public override bool? needsBase => false;
-            public override bool? isRotatable => true;
-            public override JSONNode customData { get; set; } = new JSONNode().SetAs("useNormalMap", true).SetAs("useHeightMap", true);
-            public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Type.NAME + GenerateTypeConfig.MESHTYPE;
         };
+        public override int? maxStackSize => 500;
+        public override bool? isPlaceable => true;
+        public override bool? needsBase => false;
+        public override bool? isRotatable => true;
+        public override JSONNode customData { get; set; } = new JSONNode().SetAs("useNormalMap", true).SetAs("useHeightMap", true);
+        public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Type.NAME + GenerateTypeConfig.MESHTYPE;
+    }
+
+    public class TypeSpecs : CSGenerateType
+    {
+        public override string generateType { get; set; } = "rotateBlock";
+        public override ICSNACH0Type baseType { get; set; } = new StairsType();
+        public override string typeName { get; set; }
     }
 
     /*public class TypeXP : CSType
