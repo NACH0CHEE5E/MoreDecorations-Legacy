@@ -54,19 +54,19 @@ namespace Nach0.Decor.GenerateTypes.Stairs
         public override string typeName { get; set; }
     }
 
-        public class TypeRecipe : ICSNACH0Recipe
-{
-        public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Type.NAME;
+    public class TypeRecipe : ICSNACH0Recipe
+    {
+            public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Type.NAME;
 
-        public List<RecipeItem> requires { get; set; } = new List<RecipeItem>();
+            public List<RecipeItem> requires { get; set; } = new List<RecipeItem>();
 
-        public List<RecipeItem> results { get; set; } = new List<RecipeItem>();
+            public List<RecipeItem> results { get; set; } = new List<RecipeItem>();
 
-        public CraftPriority defaultPriority { get; set; } = CraftPriority.Medium;
+            public CraftPriority defaultPriority { get; set; } = CraftPriority.Medium;
 
-        public bool isOptional { get; set; } = false;
+            public bool isOptional { get; set; } = false;
 
-        public int defaultLimit { get; set; } = 0;
+           public int defaultLimit { get; set; } = 0;
 
         public string Job { get; set; } = GenerateTypeConfig.NAME + ".Jobs." + LocalGenerateConfig.NAME + "Maker";
     }
@@ -93,6 +93,11 @@ namespace Nach0.Decor.GenerateTypes.Stairs
                     var typeName = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type;
 
                     ServerLog.LogAsyncMessage(new LogMessage("Generating type " + typeName, LogType.Log));
+
+                    var Types = new TypeSpecs();
+                    Types.baseType.categories.Add(currentType.type);
+                    Types.typeName = typeName;
+                    Types.baseType.sideall = currentType.texture;
 
                     /*var generationType = new TypeSpecs();
                     generationType.categories.Add(currentType.type);
