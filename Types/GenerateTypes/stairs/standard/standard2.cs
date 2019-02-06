@@ -45,6 +45,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
         public override bool? isRotatable => true;
         public override JSONNode customData { get; set; } = new JSONNode().SetAs("useNormalMap", true).SetAs("useHeightMap", true);
         public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Type.NAME + GenerateTypeConfig.MESHTYPE;
+        public override string sideall { get; set; }
     }
 
     public class TypeSpecs : CSGenerateType
@@ -124,7 +125,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
                     typeZM.name = typeName + "z-";
                     typeZM.parentType = typeName;*/
 
-
+                    types.Add(typeName, new ItemTypeRaw(typeName, Types.JsonSerialize()));
                     /*types.Add(typeName, new ItemTypeRaw(typeName, baseType.JsonSerialize()));
                     types.Add(typeName + "x+", new ItemTypeRaw(typeName + "x+", typeXP.JsonSerialize()));
                     types.Add(typeName + "x-", new ItemTypeRaw(typeName + "x-", typeXM.JsonSerialize()));

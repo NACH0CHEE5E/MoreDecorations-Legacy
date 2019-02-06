@@ -12,21 +12,21 @@ namespace MoreDecorations.Models
     public class CSType : ICSNACH0Type
     {
         public virtual string name { get; set; }
-        public virtual bool? isDestructible { get; }
-        public virtual bool? isRotatable { get; }
-        public virtual bool? isSolid { get; }
-        public virtual bool? isFertile { get; }
-        public virtual bool? isPlaceable { get; }
-        public virtual bool? needsBase { get; }
-        public virtual int? maxStackSize { get; }
-        public virtual float? foodValue { get; }
-        public virtual float? happiness { get; }
-        public virtual float? dailyFoodFractionOptimal { get; }
+        public virtual bool? isDestructible { get; set; }
+        public virtual bool? isRotatable { get; set; }
+        public virtual bool? isSolid { get; set; }
+        public virtual bool? isFertile { get; set; }
+        public virtual bool? isPlaceable { get; set; }
+        public virtual bool? needsBase { get; set; }
+        public virtual int? maxStackSize { get; set; }
+        public virtual float? foodValue { get; set; }
+        public virtual float? happiness { get; set; }
+        public virtual float? dailyFoodFractionOptimal { get; set; }
         public virtual string mesh { get; set; }
         public virtual string icon { get; set; }
         public virtual string onRemoveAudio { get; set; }
         public virtual string onPlaceAudio { get; set; }
-        public virtual int? destructionTime { get; }
+        public virtual int? destructionTime { get; set; }
         [JsonIgnore]
         public virtual JSONNode customData { get; set; }
         public virtual string parentType { get; set; }
