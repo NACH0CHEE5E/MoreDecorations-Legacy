@@ -1,0 +1,16 @@
+[
+	{
+		"name" : "NACH0.player.MakerMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.MakerMaker"
+			}
+		]
+	}
+]

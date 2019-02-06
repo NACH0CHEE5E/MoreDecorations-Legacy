@@ -103,8 +103,19 @@
     <Compile Include="Models\ICSType.cs" />
     <Compile Include="Models\OnRemove.cs" />
     <Compile Include="Types\GenerateTypeConfig.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\corner.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\cornerinverted.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\flipped\standard2.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\corner.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\cornerinverted.cs" />
+    <Compile Include="Types\GenerateTypes\ramps\standard\standard2.cs" />
     <Compile Include="Types\GenerateTypes\slabs\standard.cs" />
-    <Compile Include="Types\GenerateTypes\slabs\vertical.cs" />
+    <Compile Include="Types\GenerateTypes\slabs\Vertical2.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\flipped\corner.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\flipped\cornerinverted.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\flipped\standard.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\standard\cornerinverted.cs" />
+    <Compile Include="Types\GenerateTypes\stairs\standard\corner.cs" />
     <Compile Include="Types\GenerateTypes\stairs\standard\standard2.cs" />
   </ItemGroup>
   <ItemGroup />

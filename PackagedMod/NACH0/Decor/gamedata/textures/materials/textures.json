@@ -1,0 +1,89 @@
+{
+	"_settings" : {
+		"defaultAlbedo" : "./albedo/default.png",
+		"defaultEmissive" : "./emissiveMaskAlpha/default.png",
+		"defaultHeight" : "./heightSmoothnessSpecularity/default.png",
+		"defaultNormal" : "./normal/default.png",
+		"fileExtension" : ".png",
+		"folderAlbedo" : "./albedo/",
+		"folderEmissive" : "./emissiveMaskAlpha/",
+		"folderHeight" : "./heightSmoothnessSpecularity/",
+		"folderNormal" : "./normal/"
+	},
+	
+	"NACH0.Textures.MakerMaker": {
+		"albedo": "MakerMaker"
+	},
+	
+	
+	"NACH0.Textures.SlabMaker": {
+		"albedo": "SlabMaker"
+	},
+	"NACH0.Textures.VerticalSlabMaker": {
+		"albedo": "VerticalSlabMaker"
+	},
+	
+	
+	"NACH0.Textures.StairsMaker": {
+		"albedo": "StairsMaker"
+	},
+	"NACH0.Textures.StairsCornerMaker": {
+		"albedo": "StairsCornerMaker"
+	},
+	"NACH0.Textures.StairsCornerInvertedMaker": {
+		"albedo": "StairsCornerInvertedMaker"
+	},
+	
+	"NACH0.Textures.InvertedStairsMaker": {
+		"albedo": "InvertedStairsMaker"
+	},
+	"NACH0.Textures.InvertedStairsCornerMaker": {
+		"albedo": "InvertedStairsCornerMaker"
+	},
+	"NACH0.Textures.InvertedStairsCornerInvertedMaker": {
+		"albedo": "InvertedStairsCornerInvertedMaker"
+	},
+	
+	
+	"NACH0.Textures.RampMaker": {
+		"albedo": "RampMaker"
+	},
+	"NACH0.Textures.RampCornerMaker": {
+		"albedo": "RampCornerMaker"
+	},
+	"NACH0.Textures.RampCornerInvertedMaker": {
+		"albedo": "RampCornerInvertedMaker"
+	},
+	
+	"NACH0.Textures.InvertedRampMaker": {
+		"albedo": "InvertedRampMaker"
+	},
+	"NACH0.Textures.InvertedRampCornerMaker": {
+		"albedo": "InvertedRampCornerMaker"
+	},
+	"NACH0.Textures.InvertedRampCornerInvertedMaker": {
+		"albedo": "InvertedRampCornerInvertedMaker"
+	},
+	
+	
+	"NACH0.Textures.QuarterBlockMaker": {
+		"albedo": "QuarterBlockMaker"
+	},
+	"NACH0.Textures.RaisedQuarterBlockMaker": {
+		"albedo": "RaisedQuarterBlockMaker"
+	},
+	
+	"NACH0.Textures.EdgeBlockMaker": {
+		"albedo": "EdgeBlockMaker"
+	},
+	"NACH0.Textures.RaisedEdgeBlockMaker": {
+		"albedo": "RaisedEdgeBlockMaker"
+	},
+	
+	"NACH0.Textures.CornerBlockMaker": {
+		"albedo": "CornerBlockMaker"
+	},
+	"NACH0.Textures.RaisedCornerBlockMaker": {
+		"albedo": "RaisedCornerBlockMaker"
+	}
+}

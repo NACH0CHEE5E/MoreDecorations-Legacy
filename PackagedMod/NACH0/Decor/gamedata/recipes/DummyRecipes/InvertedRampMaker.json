@@ -1,0 +1,17 @@
+[
+	{
+		"isOptional": true,
+		"name" : "NACH0.InvertedRampMaker.Dummy",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.MakerMaker"
+			}
+		]
+	}
+]

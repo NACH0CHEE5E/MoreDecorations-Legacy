@@ -15,29 +15,27 @@ using System.IO;
 using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
+using NACH0.Decor.GenerateTypes;
 
-namespace Nach0.Decor.GenerateTypes.Stairs
+namespace Nach0.Decor.GenerateTypes.VerticalSlab
 {
     public class LocalGenerateConfig
     {
-        public const string NAME = "Stairs";
-        public const string PARENT_NAME = NAME;
+        public const string NAME = "VerticalSlab";
+        public const string PARENT_NAME = Slab.LocalGenerateConfig.NAME;
     }
 
     public class TypeBase : CSType
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
-            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "a", LocalGenerateConfig.NAME, "b"
+            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "b", LocalGenerateConfig.NAME, "b",
         };
         public override Colliders colliders { get; set; } = new Colliders()
         {
             boxes = new List<Colliders.Boxes>()
                 {
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.25f, -0.25f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.25f, 0.25f, -0.5f })
+                new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0f, -0.5f, -0.5f })
                 }
         };
         public override int? maxStackSize => 500;
@@ -58,24 +56,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
 
     public class TypeRecipe : ICSNACH0Recipe
     {
-            public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Type.NAME;
-
-            public List<RecipeItem> requires { get; set; } = new List<RecipeItem>();
-
-            public List<RecipeItem> results { get; set; } = new List<RecipeItem>();
-
-            public CraftPriority defaultPriority { get; set; } = CraftPriority.Medium;
-
-            public bool isOptional { get; set; } = false;
-
-           public int defaultLimit { get; set; } = 0;
-
-        public string Job { get; set; } = GenerateTypeConfig.NAME + ".Jobs." + LocalGenerateConfig.NAME + "Maker";
-    }
-
-    public class DummyJobRecipe : ICSNACH0Recipe
-    {
-        public string name { get; set; } = GenerateTypeConfig.NAME + ".Jobs." + LocalGenerateConfig.NAME + "Maker.dummy";
+        public string name { get; set; } = GenerateTypeConfig.TYPEPREFIX + Type.NAME;
 
         public List<RecipeItem> requires { get; set; } = new List<RecipeItem>();
 
@@ -83,7 +64,7 @@ namespace Nach0.Decor.GenerateTypes.Stairs
 
         public CraftPriority defaultPriority { get; set; } = CraftPriority.Medium;
 
-        public bool isOptional { get; set; } = true;
+        public bool isOptional { get; set; } = false;
 
         public int defaultLimit { get; set; } = 0;
 

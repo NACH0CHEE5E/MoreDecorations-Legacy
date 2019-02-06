@@ -16,11 +16,11 @@ using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
 
-namespace Nach0.Decor.GenerateTypes.Stairs
+namespace Nach0.Decor.GenerateTypes.Ramp
 {
     public class LocalGenerateConfig
     {
-        public const string NAME = "Stairs";
+        public const string NAME = "Ramp";
         public const string PARENT_NAME = NAME;
     }
 

@@ -1,0 +1,282 @@
+[
+	{
+		"name" : "NACH0.MakerMaker.SlabMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.SlabMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.VerticalSlabMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.VerticalSlabMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.StairsMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.StairsMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.StairsCornerMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.StairsCornerMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.StairsCornerInvertedMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.StairsCornerInvertedMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.InvertedStairsMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.InvertedStairsMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.InvertedStairsCornerMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.InvertedStairsCornerMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.InvertedStairsCornerInvertedMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.InvertedStairsCornerInvertedMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.RampMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.RampMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.RampCornerMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.RampCornerMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.RampCornerInvertedMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.RampCornerInvertedMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.InvertedRampMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.InvertedRampMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.InvertedRampCornerMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.InvertedRampCornerMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.InvertedRampCornerInvertedMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.InvertedRampCornerInvertedMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.QuarterBlockMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.QuarterBlockMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.RaisedQuarterBlockMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.RaisedQuarterBlockMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.EdgeBlockMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.EdgeBlockMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.RaisedEdgeBlockMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.RaisedEdgeBlockMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.CornerBlockMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.CornerBlockMaker"
+			}
+		]
+	},
+	{
+		"name" : "NACH0.MakerMaker.RaisedCornerBlockMaker",
+		"requires" : [
+			{
+				"type": "planks",
+				"amount": 1,
+			}
+		],
+		"results" : [
+			{
+				"type":"NACH0.Types.RaisedCornerBlockMaker"
+			}
+		]
+	}
+]

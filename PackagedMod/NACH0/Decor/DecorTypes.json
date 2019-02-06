@@ -1,0 +1,148 @@
+{
+    "Slab": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+    "VerticalSlab": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	
+	
+	"Stairs": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"StairsCorner": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"StairsCornerInverted": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	
+	"InvertedStairs": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"InvertedStairsCorner": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"InvertedStairsCornerInverted": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	
+	
+	"Ramp": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"RampCorner": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"RampCornerInverted": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	
+	"InvertedRamp": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"InvertedRampCorner": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"InvertedRampCornerInverted": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ]
+}

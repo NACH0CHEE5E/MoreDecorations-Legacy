@@ -1,0 +1,115 @@
+[
+	{
+		"blockType" : "NACH0.Types.MakerMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.MakerMaker"
+	},
+	
+	
+	{
+		"blockType" : "NACH0.Types.SlabMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.SlabMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.VerticalSlabMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.VerticalSlabMaker"
+	},
+	
+	
+	{
+		"blockType" : "NACH0.Types.StairsMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.StairsMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.StairsCornerMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.StairsCornerMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.StairsCornerInvertedMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.StairsCornerInvertedMaker"
+	},
+	
+	{
+		"blockType" : "NACH0.Types.InvertedStairsMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.InvertedStairsMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.InvertedStairsCornerMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.InvertedStairsCornerMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.InvertedStairsCornerInvertedMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.InvertedStairsCornerInvertedMaker"
+	},
+	
+	
+	{
+		"blockType" : "NACH0.Types.RampMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.RampMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.RampCornerMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.RampCornerMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.RampCornerInvertedMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.RampCornerInvertedMaker"
+	},
+	
+	{
+		"blockType" : "NACH0.Types.InvertedRampMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.InvertedRampMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.InvertedRampCornerMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.InvertedRampCornerMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.InvertedRampCornerInvertedMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.InvertedRampCornerInvertedMaker"
+	},
+]

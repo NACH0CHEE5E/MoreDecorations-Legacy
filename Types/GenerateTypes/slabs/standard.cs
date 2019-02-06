@@ -21,13 +21,15 @@ namespace Nach0.Decor.GenerateTypes.Slab
     public class LocalGenerateConfig
     {
         public const string NAME = "Slab";
+        public const string PARENT_NAME = NAME;
+
     }
 
     public class TypeParent : CSType
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
-            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.NAME, "b"
+            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "a", LocalGenerateConfig.NAME, "b"
         };
 
         public override int? maxStackSize => 500;
@@ -92,6 +94,10 @@ namespace Nach0.Decor.GenerateTypes.Slab
         public static void generateTypes(Dictionary<string, ItemTypeRaw> types)
         {
             ServerLog.LogAsyncMessage(new LogMessage("Begining " + NAME + " type generation", LogType.Log));
+            using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt"), true))
+            {
+                outputFile.WriteLine("Begining " + NAME + " generation");
+            }
 
             if (GenerateTypeConfig.DecorTypes.TryGetValue(NAME, out List<DecorType> blockTypes))
                 foreach (var currentType in blockTypes)
@@ -103,6 +109,10 @@ namespace Nach0.Decor.GenerateTypes.Slab
                     var typeNameDown = typeName + ".down";
 
                     ServerLog.LogAsyncMessage(new LogMessage("Generating type " + typeName, LogType.Log));
+                    using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt"), true))
+                    {
+                        outputFile.WriteLine("Generating type " + typeName);
+                    }
 
                     var baseType = new TypeParent();
                     baseType.categories.Add(currentType.type);
@@ -132,6 +142,10 @@ namespace Nach0.Decor.GenerateTypes.Slab
         public static void generateRecipes()
         {
             ServerLog.LogAsyncMessage(new LogMessage("Begining " + NAME + " recipe generation", LogType.Log));
+            using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt"), true))
+            {
+                outputFile.WriteLine("Begining " + NAME + " recipe generation");
+            }
 
             if (GenerateTypeConfig.DecorTypes.TryGetValue(LocalGenerateConfig.NAME, out List<DecorType> blockTypes))
                 foreach (var currentType in blockTypes)
@@ -140,6 +154,10 @@ namespace Nach0.Decor.GenerateTypes.Slab
                     var typeNameRecipe = GenerateTypeConfig.TYPEPREFIX + NAME + "." + currentType.type + ".Recipe";
 
                     ServerLog.LogAsyncMessage(new LogMessage("Generating recipe " + typeNameRecipe, LogType.Log));
+                    using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt"), true))
+                    {
+                        outputFile.WriteLine("Generating recipe " + typeNameRecipe);
+                    }
 
                     var recipe = new TypeRecipe();
                     recipe.name = typeNameRecipe;

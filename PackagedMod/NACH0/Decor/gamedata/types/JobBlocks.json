@@ -1,0 +1,306 @@
+{
+	"NACH0.Types.MakerMaker": {
+		"categories": [
+			"NACH0",
+			"Decor"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"sidey+": "NACH0.Textures.MakerMaker"
+	},
+	
+	
+	"NACH0.Types.SlabMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Slab",
+			"a",
+			"Slab",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/SlabMaker.png",
+		"sidey+": "NACH0.Textures.SlabMaker"
+	},
+	"NACH0.Types.VerticalSlabMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Slab",
+			"b",
+			"VerticalSlab",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/VerticalSlabMaker.png",
+		"sidey+": "NACH0.Textures.VerticalSlabMaker"
+	},
+	
+	
+	"NACH0.Types.StairsMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Stairs",
+			"a",
+			"Stairs",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/StairsMaker.png",
+		"sidey+": "NACH0.Textures.StairsMaker"
+	},
+	"NACH0.Types.StairsCornerMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Stairs",
+			"b",
+			"StairsCorner",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/StairsCornerMaker.png",
+		"sidey+": "NACH0.Textures.StairsCornerMaker"
+	},
+	"NACH0.Types.StairsCornerInvertedMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Stairs",
+			"c",
+			"StairsCornerInverted",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/StairsCornerInvertedMaker.png",
+		"sidey+": "NACH0.Textures.StairsCornerInvertedMaker"
+	},
+	
+	"NACH0.Types.InvertedStairsMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Stairs",
+			"d",
+			"InvertedStairs",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/InvertedStairsMaker.png",
+		"sidey+": "NACH0.Textures.InvertedStairsMaker"
+	},
+	"NACH0.Types.InvertedStairsCornerMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Stairs",
+			"e",
+			"InvertedStairsCorner",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/InvertedStairsCornerMaker.png",
+		"sidey+": "NACH0.Textures.InvertedStairsCornerMaker"
+	},
+	"NACH0.Types.InvertedStairsCornerInvertedMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Stairs",
+			"f",
+			"InvertedStairsCornerInverted",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/InvertedStairsCornerInvertedMaker.png",
+		"sidey+": "NACH0.Textures.InvertedStairsCornerInvertedMaker"
+	},
+	
+	
+	"NACH0.Types.RampMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Ramp",
+			"a",
+			"Ramp",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/RampMaker.png",
+		"sidey+": "NACH0.Textures.RampMaker"
+	},
+	"NACH0.Types.RampCornerMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Ramp",
+			"b",
+			"RampCorner",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/RampCornerMaker.png",
+		"sidey+": "NACH0.Textures.RampCornerMaker"
+	},
+	"NACH0.Types.RampCornerInvertedMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Ramp",
+			"c",
+			"RampCornerInverted",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/RampCornerInvertedMaker.png",
+		"sidey+": "NACH0.Textures.RampCornerInvertedMaker"
+	},
+	
+	"NACH0.Types.InvertedRampMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Ramp",
+			"d",
+			"InvertedRamp",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/InvertedRampMaker.png",
+		"sidey+": "NACH0.Textures.InvertedRampMaker"
+	},
+	"NACH0.Types.InvertedRampCornerMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Ramp",
+			"e",
+			"InvertedRampCorner",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/InvertedRampCornerMaker.png",
+		"sidey+": "NACH0.Textures.InvertedRampCornerMaker"
+	},
+	"NACH0.Types.InvertedRampCornerInvertedMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"Ramp",
+			"f",
+			"InvertedRampCornerInverted",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"icon": "./../textures/icons/InvertedRampCornerInvertedMaker.png",
+		"sidey+": "NACH0.Textures.InvertedRampCornerInvertedMaker"
+	},
+	
+	
+	"NACH0.Types.QuarterBlockMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"QuarterBlock",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"sidey+": "NACH0.Textures.QuarterBlockMaker"
+	},
+	"NACH0.Types.RaisedQuarterBlockMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"RaisedQuarterBlock",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"sidey+": "NACH0.Textures.RaisedQuarterBlockMaker"
+	},
+	
+	"NACH0.Types.EdgeBlockMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"EdgeBlock",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"sidey+": "NACH0.Textures.EdgeBlockMaker"
+	},
+	"NACH0.Types.RaisedEdgeBlockMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"RaisedEdgeBlock",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"sidey+": "NACH0.Textures.RaisedEdgeBlockMaker"
+	},
+	
+	"NACH0.Types.CornerBlockMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"CornerBlock",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"sidey+": "NACH0.Textures.CornerBlockMaker"
+	},
+	"NACH0.Types.RaisedCornerBlockMaker": {
+		"categories": [
+			"NACH0",
+			"Decor",
+			"RaisedCornerBlock",
+			"a"
+		],
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "planks",
+		"sidey+": "NACH0.Textures.RaisedCornerBlockMaker"
+	}
+}

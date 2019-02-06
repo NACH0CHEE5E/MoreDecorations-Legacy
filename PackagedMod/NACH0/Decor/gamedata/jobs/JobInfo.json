@@ -1,0 +1,128 @@
+[{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.MakerMaker",
+		"npcType": "worker",
+		"printName": "Maker Maker"
+	},
+
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.SlabMaker",
+		"npcType": "worker",
+		"printName": "Slab Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.VerticalSlabMaker",
+		"npcType": "worker",
+		"printName": "Vertical Slab Maker"
+	},
+
+
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.StairsMaker",
+		"npcType": "worker",
+		"printName": "Stairs Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.StairsCornerMaker",
+		"npcType": "worker",
+		"printName": "Stairs Corner Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.StairsCornerInvertedMaker",
+		"npcType": "worker",
+		"printName": "Stairs Corner Inverted Maker"
+	},
+
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.InvertedStairsMaker",
+		"npcType": "worker",
+		"printName": "Inverted Slab Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.InvertedStairsCornerMaker",
+		"npcType": "worker",
+		"printName": "Inverted Stairs Corner Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.InvertedStairsCornerInvertedMaker",
+		"npcType": "worker",
+		"printName": "Inverted Stairs Corner Inverted Maker"
+	},
+
+
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.RampMaker",
+		"npcType": "worker",
+		"printName": "Ramp Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.RampCornerMaker",
+		"npcType": "worker",
+		"printName": "Ramp Corner Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.RampCornerInvertedMaker",
+		"npcType": "worker",
+		"printName": "Ramp Corner Inverted Maker"
+	},
+
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.InvertedRampMaker",
+		"npcType": "worker",
+		"printName": "Inverted Ramp Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.InvertedRampCornerMaker",
+		"npcType": "worker",
+		"printName": "Inverted Ramp Corner Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.InvertedRampCornerInvertedMaker",
+		"npcType": "worker",
+		"printName": "Inverted Ramp Corner Inverted Maker"
+	}
+]

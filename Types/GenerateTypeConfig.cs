@@ -49,7 +49,13 @@ namespace NACH0.Decor.GenerateTypes.Config
             DecorTypes = JsonConvert.DeserializeObject<Dictionary<string, List<DecorType>>>(file);
 
             AppDomain.CurrentDomain.AssemblyResolve += CurrentDomain_AssemblyResolve;
+
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt")))
+            {
+                outputFile.WriteLine("");
+            }
         }
+
 
         private static Assembly CurrentDomain_AssemblyResolve(object sender, ResolveEventArgs args)
         {
@@ -83,10 +89,11 @@ namespace NACH0.Decor.GenerateTypes.Config
         public static JSONNode JsonSerialize<T>(this T obj)
         {
             var objStr = JsonConvert.SerializeObject(obj, Formatting.None, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
-            ServerLog.LogAsyncMessage(new LogMessage(objStr, UnityEngine.LogType.Log));
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt")))
+            //ServerLog.LogAsyncMessage(new LogMessage(objStr, UnityEngine.LogType.Log));
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(GenerateTypeConfig.MOD_FOLDER, "Log.txt"), true))
             {
-                outputFile.WriteLine(objStr);
+                outputFile.WriteLine("JSON - " + objStr);
+                outputFile.WriteLine("");
             }
             var json = JSON.DeserializeString(objStr);
 

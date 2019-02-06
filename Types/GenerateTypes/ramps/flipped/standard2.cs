@@ -16,19 +16,19 @@ using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
 
-namespace Nach0.Decor.GenerateTypes.Stairs
+namespace Nach0.Decor.GenerateTypes.InvertedRamp
 {
     public class LocalGenerateConfig
     {
-        public const string NAME = "Stairs";
-        public const string PARENT_NAME = NAME;
+        public const string NAME = "InvertedRamp";
+        public const string PARENT_NAME = Ramp.LocalGenerateConfig.PARENT_NAME;
     }
 
     public class TypeBase : CSType
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
-            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "a", LocalGenerateConfig.NAME, "b"
+            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "d", LocalGenerateConfig.NAME, "b"
         };
         public override Colliders colliders { get; set; } = new Colliders()
         {
