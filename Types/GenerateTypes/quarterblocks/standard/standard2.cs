@@ -16,11 +16,11 @@ using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
 
-namespace Nach0.Decor.GenerateTypes.Ramp
+namespace Nach0.Decor.GenerateTypes.QuarterBlock
 {
     public class LocalGenerateConfig
     {
-        public const string NAME = "Ramp";
+        public const string NAME = "QuarterBlock";
         public const string PARENT_NAME = NAME;
     }
 
@@ -34,16 +34,7 @@ namespace Nach0.Decor.GenerateTypes.Ramp
         {
             boxes = new List<Colliders.Boxes>()
                 {
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.4f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.3f, 0.5f }, new List<float>(){ -0.4f, -0.4f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.2f, 0.5f }, new List<float>(){ -0.3f, -0.3f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.1f, 0.5f }, new List<float>(){ -0.2f, -0.2f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.1f, -0.1f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.1f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.2f, 0.5f }, new List<float>(){ 0.1f, 0.1f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.3f, 0.5f }, new List<float>(){ 0.2f, 0.2f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.4f, 0.5f }, new List<float>(){ 0.3f, 0.3f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.4f, 0.4f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ 0f, -0.5f, -0.5f }),
                 },
             collidePlayer = true,
             collideSelection = true

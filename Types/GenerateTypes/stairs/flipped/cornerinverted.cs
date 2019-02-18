@@ -34,11 +34,16 @@ namespace Nach0.Decor.GenerateTypes.InvertedStairsCornerInverted
         {
             boxes = new List<Colliders.Boxes>()
                 {
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.25f, -0.25f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.25f, 0.25f, -0.5f })
-                }
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ -0.5f, 0.25f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ -0.25f, 0.25f, 0.25f }, new List<float>(){ -0.5f, 0f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ -0.25f, 0f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ 0f, -0.25f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0f, 0f, 0f }, new List<float>(){ -0.5f, -0.25f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.25f, -0.25f, -0.25f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ 0.25f, -0.5f, -0.5f })
+                },
+            collidePlayer = true,
+            collideSelection = true
         };
         public override int? maxStackSize => 500;
         public override bool? isPlaceable => true;

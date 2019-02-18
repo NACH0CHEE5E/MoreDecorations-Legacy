@@ -36,7 +36,9 @@ namespace Nach0.Decor.GenerateTypes.VerticalSlab
             boxes = new List<Colliders.Boxes>()
                 {
                 new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0f, -0.5f, -0.5f })
-                }
+                },
+            collidePlayer = true,
+            collideSelection = true
         };
         public override int? maxStackSize => 500;
         public override bool? isPlaceable => true;

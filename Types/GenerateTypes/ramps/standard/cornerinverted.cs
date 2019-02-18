@@ -34,10 +34,25 @@ namespace Nach0.Decor.GenerateTypes.RampCornerInverted
         {
             boxes = new List<Colliders.Boxes>()
                 {
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.25f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.25f, -0.25f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.25f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.25f, 0.25f, -0.5f })
+                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.4f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ -0.4f, -0.3f, 0.4f }, new List<float>(){ -0.5f, -0.4f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.3f, 0.5f }, new List<float>(){ -0.4f, -0.4f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ -0.3f, -0.2f, 0.3f }, new List<float>(){ -0.5f, -0.3f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.2f, 0.5f }, new List<float>(){ -0.3f, -0.3f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.1f, 0.5f }, new List<float>(){ -0.2f, -0.2f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ -0.2f, -0.1f, 0.2f }, new List<float>(){ -0.5f, -0.2f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.1f, -0.1f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ -0.1f, 0f, 0.1f }, new List<float>(){ -0.5f, -0.1f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.1f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0f, 0.1f, 0f }, new List<float>(){ -0.5f, 0f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.2f, 0.5f }, new List<float>(){ 0.1f, 0.1f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.1f, 0.2f, -0.1f }, new List<float>(){ -0.5f, 0.1f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.3f, 0.5f }, new List<float>(){ 0.2f, 0.2f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.2f, 0.3f, -0.2f }, new List<float>(){ -0.5f, 0.2f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.4f, 0.5f }, new List<float>(){ 0.3f, 0.3f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.3f, 0.4f, -0.3f }, new List<float>(){ -0.5f, 0.3f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.4f, 0.4f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.4f, 0.5f, -0.4f }, new List<float>(){ -0.5f, 0.4f, -0.5f }),
                 }
         };
         public override int? maxStackSize => 500;

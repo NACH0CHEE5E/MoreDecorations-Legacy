@@ -234,6 +234,8 @@
 			"NACH0",
 			"Decor",
 			"QuarterBlock",
+			"a",
+			"QuarterBlock",
 			"a"
 		],
 		"onPlaceAudio": "stonePlace",
@@ -245,6 +247,8 @@
 		"categories": [
 			"NACH0",
 			"Decor",
+			"QuarterBlock",
+			"b",
 			"RaisedQuarterBlock",
 			"a"
 		],
@@ -258,6 +262,8 @@
 		"categories": [
 			"NACH0",
 			"Decor",
+			"QuarterBlock",
+			"c",
 			"EdgeBlock",
 			"a"
 		],
@@ -270,6 +276,8 @@
 		"categories": [
 			"NACH0",
 			"Decor",
+			"QuarterBlock",
+			"d",
 			"RaisedEdgeBlock",
 			"a"
 		],
@@ -283,6 +291,8 @@
 		"categories": [
 			"NACH0",
 			"Decor",
+			"QuarterBlock",
+			"e",
 			"CornerBlock",
 			"a"
 		],
@@ -295,6 +305,8 @@
 		"categories": [
 			"NACH0",
 			"Decor",
+			"QuarterBlock",
+			"f",
 			"RaisedCornerBlock",
 			"a"
 		],

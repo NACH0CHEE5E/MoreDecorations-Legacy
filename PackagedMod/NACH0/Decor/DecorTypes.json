@@ -144,5 +144,69 @@
             "type": "stonebricks",
             "texture": "stonebricks"
         }
+    ],
+	
+	
+	"QuarterBlock": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"RaisedQuarterBlock": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	
+	"EdgeBlock": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"RaisedEdgeBlock": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	
+	"CornerBlock": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
+    ],
+	"RaisedCornerBlock": [
+        {
+            "type": "bricks",
+            "texture": "bricks"
+        },
+        {
+            "type": "stonebricks",
+            "texture": "stonebricks"
+        }
     ]
 }

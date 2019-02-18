@@ -16,34 +16,25 @@ using NACH0.Decor.GenerateTypes.Config;
 using UnityEngine;
 using Decor.Models;
 
-namespace Nach0.Decor.GenerateTypes.Ramp
+namespace Nach0.Decor.GenerateTypes.EdgeBlock
 {
     public class LocalGenerateConfig
     {
-        public const string NAME = "Ramp";
-        public const string PARENT_NAME = NAME;
+        public const string NAME = "EdgeBlock";
+        public const string PARENT_NAME = QuarterBlock.LocalGenerateConfig.PARENT_NAME;
     }
 
     public class TypeBase : CSType
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
-            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "a", LocalGenerateConfig.NAME, "b"
+            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "c", LocalGenerateConfig.NAME, "b"
         };
         public override Colliders colliders { get; set; } = new Colliders()
         {
             boxes = new List<Colliders.Boxes>()
                 {
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.4f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.3f, 0.5f }, new List<float>(){ -0.4f, -0.4f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.2f, 0.5f }, new List<float>(){ -0.3f, -0.3f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, -0.1f, 0.5f }, new List<float>(){ -0.2f, -0.2f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.1f, -0.1f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.1f, 0.5f }, new List<float>(){ 0f, 0f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.2f, 0.5f }, new List<float>(){ 0.1f, 0.1f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.3f, 0.5f }, new List<float>(){ 0.2f, 0.2f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.4f, 0.5f }, new List<float>(){ 0.3f, 0.3f, -0.5f }),
-                    new Colliders.Boxes(new List<float>(){ 0.5f, 0.5f, 0.5f }, new List<float>(){ 0.4f, 0.4f, -0.5f }),
+                    new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0f }, new List<float>(){ 0f, -0.5f, -0.5f })
                 },
             collidePlayer = true,
             collideSelection = true

@@ -36,6 +36,7 @@ namespace Nach0.Decor.GenerateTypes.Slab
         public override bool? isPlaceable => true;
         public override bool? needsBase => false;
         public override bool? isRotatable => true;
+        public override bool? isSolid => true;
         public override JSONNode customData { get; set; } = new JSONNode().SetAs("useNormalMap", true).SetAs("useHeightMap", true);
     }
 
@@ -47,7 +48,9 @@ namespace Nach0.Decor.GenerateTypes.Slab
             boxes = new List<Colliders.Boxes>()
             {
                 new Colliders.Boxes(new List<float>(){ -0.5f, 0f, -0.5f }, new List<float>(){ 0.5f, 0.5f, 0.5f })
-            }
+            },
+            collidePlayer = true,
+            collideSelection = true
         };
     }
 
@@ -59,7 +62,9 @@ namespace Nach0.Decor.GenerateTypes.Slab
             boxes = new List<Colliders.Boxes>()
             {
                 new Colliders.Boxes(new List<float>(){ 0.5f, 0f, 0.5f }, new List<float>(){ -0.5f, -0.5f, -0.5f })
-            }
+            },
+            collidePlayer = true,
+            collideSelection = true
         };
 
     }

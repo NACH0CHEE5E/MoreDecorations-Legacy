@@ -49,7 +49,7 @@
 				"NACH0.Types.InvertedRampCornerInvertedMaker"
 			],
 			"npcType" : "NACH0.Jobs.InvertedRampCornerInvertedMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/InvertedRampCornerInvertedMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -58,7 +58,7 @@
 				"NACH0.Types.InvertedRampCornerMaker"
 			],
 			"npcType" : "NACH0.Jobs.InvertedRampCornerMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/InvertedRampCornerMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -67,7 +67,7 @@
 				"NACH0.Types.InvertedRampMaker"
 			],
 			"npcType" : "NACH0.Jobs.InvertedRampMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/InvertedRampMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -76,7 +76,7 @@
 				"NACH0.Types.InvertedStairsCornerInvertedMaker"
 			],
 			"npcType" : "NACH0.Jobs.InvertedStairsCornerInvertedMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/InvertedStairsCornerInvertedMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -85,7 +85,7 @@
 				"NACH0.Types.InvertedStairsCornerMaker"
 			],
 			"npcType" : "NACH0.Jobs.InvertedStairsCornerMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/InvertedStairsCornerMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -94,7 +94,7 @@
 				"NACH0.Types.InvertedStairsMaker"
 			],
 			"npcType" : "NACH0.Jobs.InvertedStairsMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/InvertedStairsMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -103,7 +103,7 @@
 				"NACH0.Types.RampCornerInvertedMaker"
 			],
 			"npcType" : "NACH0.Jobs.RampCornerInvertedMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/RampCornerInvertedMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -112,7 +112,7 @@
 				"NACH0.Types.RampCornerMaker"
 			],
 			"npcType" : "NACH0.Jobs.RampCornerMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/RampCornerMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -121,7 +121,7 @@
 				"NACH0.Types.RampMaker"
 			],
 			"npcType" : "NACH0.Jobs.RampMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/RampMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -130,7 +130,7 @@
 				"NACH0.Types.SlabMaker"
 			],
 			"npcType" : "NACH0.Jobs.SlabMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/SlabMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -139,7 +139,7 @@
 				"NACH0.Types.StairsCornerInvertedMaker"
 			],
 			"npcType" : "NACH0.Jobs.StairsCornerInvertedMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/StairsCornerInvertedMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -148,7 +148,7 @@
 				"NACH0.Types.StairsCornerMaker"
 			],
 			"npcType" : "NACH0.Jobs.StairsCornerMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/StairsCornerMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -157,7 +157,7 @@
 				"NACH0.Types.StairsMaker"
 			],
 			"npcType" : "NACH0.Jobs.StairsMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/StairsMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		},
 		{
 			"fileType" : "addOrReplaceNPCRecipes",
@@ -166,7 +166,61 @@
 				"NACH0.Types.VerticalSlabMaker"
 			],
 			"npcType" : "NACH0.Jobs.VerticalSlabMaker",
-			"relativePath" : "gamedata/recipes/DummyRecipes/VerticalSlabMaker.json"
+			"relativePath" : "gamedata/recipes/Dummy.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"NACH0.Types.QuarterBlockMaker"
+			],
+			"npcType" : "NACH0.Jobs.QuarterBlockMaker",
+			"relativePath" : "gamedata/recipes/Dummy.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"NACH0.Types.RaisedQuarterBlockMaker"
+			],
+			"npcType" : "NACH0.Jobs.RaisedQuarterBlockMaker",
+			"relativePath" : "gamedata/recipes/Dummy.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"NACH0.Types.EdgeBlockMaker"
+			],
+			"npcType" : "NACH0.Jobs.EdgeBlockMaker",
+			"relativePath" : "gamedata/recipes/Dummy.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"NACH0.Types.RaisedEdgeBlockMaker"
+			],
+			"npcType" : "NACH0.Jobs.RaisedEdgeBlockMaker",
+			"relativePath" : "gamedata/recipes/Dummy.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"NACH0.Types.CornerBlockMaker"
+			],
+			"npcType" : "NACH0.Jobs.CornerBlockMaker",
+			"relativePath" : "gamedata/recipes/Dummy.json"
+		},
+		{
+			"fileType" : "addOrReplaceNPCRecipes",
+			"index" : 18000,
+			"limitsUIMapping" : [
+				"NACH0.Types.RaisedCornerBlockMaker"
+			],
+			"npcType" : "NACH0.Jobs.RaisedCornerBlockMaker",
+			"relativePath" : "gamedata/recipes/Dummy.json"
 		}
 	],
 	"patchnotes": [

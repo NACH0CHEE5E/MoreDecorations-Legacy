@@ -103,6 +103,12 @@
     <Compile Include="Models\ICSType.cs" />
     <Compile Include="Models\OnRemove.cs" />
     <Compile Include="Types\GenerateTypeConfig.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\corner\raised2.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\corner\standard2.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\edge\standard2.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\edge\raised2.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\standard\raised2.cs" />
+    <Compile Include="Types\GenerateTypes\quarterblocks\standard\standard2.cs" />
     <Compile Include="Types\GenerateTypes\ramps\flipped\corner.cs" />
     <Compile Include="Types\GenerateTypes\ramps\flipped\cornerinverted.cs" />
     <Compile Include="Types\GenerateTypes\ramps\flipped\standard2.cs" />

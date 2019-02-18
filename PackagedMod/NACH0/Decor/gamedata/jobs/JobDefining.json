@@ -112,4 +112,50 @@
 		"maxCraftsPerHaul" : 15,
 		"npcType" : "NACH0.Jobs.InvertedRampCornerInvertedMaker"
 	},
+	
+	
+	{
+		"blockType" : "NACH0.Types.QuarterBlockMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.QuarterBlockMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.RaisedQuarterBlockMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.RaisedQuarterBlockMaker"
+	},
+	
+	{
+		"blockType" : "NACH0.Types.EdgeBlockMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.EdgeBlockMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.RaisedEdgeBlockMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.RaisedEdgeBlockMaker"
+	},
+	
+	{
+		"blockType" : "NACH0.Types.CornerBlockMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.CornerBlockMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.RaisedCornerBlockMaker",
+		"cooldown" : 2,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 15,
+		"npcType" : "NACH0.Jobs.RaisedCornerBlockMaker"
+	}
 ]

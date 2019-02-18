@@ -124,5 +124,57 @@
 		"keyName": "NACH0.Jobs.InvertedRampCornerInvertedMaker",
 		"npcType": "worker",
 		"printName": "Inverted Ramp Corner Inverted Maker"
+	},
+	
+	
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.QuarterBlockMaker",
+		"npcType": "worker",
+		"printName": "Quarter Block Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.RaisedQuarterBlockMaker",
+		"npcType": "worker",
+		"printName": "Raised Quarter Block Maker"
+	},
+	
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.EdgeBlockMaker",
+		"npcType": "worker",
+		"printName": "Edge Block Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.RaisedEdgeBlockMaker",
+		"npcType": "worker",
+		"printName": "Raised Edge Block Maker"
+	},
+	
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.CornerBlockMaker",
+		"npcType": "worker",
+		"printName": "Corner Block Maker"
+	},
+	{
+		"data": {
+			"maskColor1": "#000000"
+		},
+		"keyName": "NACH0.Jobs.RaisedCornerBlockMaker",
+		"npcType": "worker",
+		"printName": "Raised Corner Block Maker"
 	}
 ]

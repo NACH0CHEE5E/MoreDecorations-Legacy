@@ -1,7 +1,7 @@
 [
 	{
 		"isOptional": true,
-		"name" : "NACH0.SlabMaker.Dummy",
+		"name" : "NACH0.Dummy",
 		"requires" : [
 			{
 				"type": "planks",
