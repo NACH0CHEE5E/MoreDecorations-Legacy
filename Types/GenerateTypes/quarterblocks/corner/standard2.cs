@@ -44,7 +44,7 @@ namespace Nach0.Decor.GenerateTypes.CornerBlock
         public override bool? isPlaceable => true;
         public override bool? needsBase => false;
         public override bool? isRotatable => true;
-        public override JSONNode customData { get; set; } = new JSONNode().SetAs("useNormalMap", true).SetAs("useHeightMap", true);
+        public override JSONNode customData { get; set; } = new JSONNode().SetAs("useNormalMap", true).SetAs("useHeightMap", true).SetAs(new JSONNode().SetAs("colors", (new List<string>() { "#ff0000->#ffffff" })));
         public override string mesh { get; set; } = GenerateTypeConfig.MOD_MESH_PATH + Type.NAME + GenerateTypeConfig.MESHTYPE;
         public override string sideall { get; set; }
         //public override List<OnRemove> onRemove { get => base.onRemove; set => base.onRemove = value; }

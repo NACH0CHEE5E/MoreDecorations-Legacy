@@ -29,7 +29,7 @@ namespace Nach0.Decor.GenerateTypes.Slab
     {
         public override List<string> categories { get; set; } = new List<string>()
         {
-            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "a", LocalGenerateConfig.NAME, "b"
+            GenerateTypeConfig.NAME, GenerateTypeConfig.MODNAME, LocalGenerateConfig.PARENT_NAME, "a", LocalGenerateConfig.NAME, "b"        /*.SetAs("colors", "#ff0000->#ffffff")*/
         };
 
         public override int? maxStackSize => 500;
